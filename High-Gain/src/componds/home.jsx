@@ -30,6 +30,12 @@ function home()
   }, []);
 
 
+
+  useEffect(() => {
+  document.title = "Home";
+}, []);
+
+
     return(
         <>
 

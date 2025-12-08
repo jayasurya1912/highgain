@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../assets/mainlogo.png";
 import What from "../assets/what.webp";
 import Phone from "../assets/phone.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -21,12 +22,12 @@ function Navbar() {
 
           {/* Desktop Menu */}
           <ul className="navbar-nav desktop-menu d-flex align-items-center">
-            <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-            <li className="nav-item"><a className="nav-link" href="#">About Us</a></li>
+            <li className="nav-item"><Link className="nav-link" to={"/"}>Home</Link></li>
+            <li className="nav-item"><Link className="nav-link" to={"/about"}>About</Link></li>
             <li className="nav-item"><a className="nav-link" href="#">Projects</a></li>
-            <li className="nav-item"><a className="nav-link" href="#">Marketing Partners</a></li>
-            <li className="nav-item"><a className="nav-link" href="#">Why Collaborating</a></li>
-            <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
+            <li className="nav-item"><Link className="nav-link" to={"/marketingpartner"}>Marketing Partners</Link></li>
+            <li className="nav-item"><Link className="nav-link" to={"/whycollaborating"}>Why Collaborating</Link></li>
+            <li className="nav-item"><Link className="nav-link" to={"/contact"}>Contact</Link></li>
 
             <li className="nav-item nav-icons ms-4">
               <img src={What} alt="whatsapp" width="26" />
@@ -50,11 +51,11 @@ function Navbar() {
         <span className="sidebar-close" onClick={closeSidebar}>&times;</span>
 
         <ul className="list-unstyled sidebar-list">
-          <li><span className="menu-item">Home</span></li>
-          <li><span className="menu-item">About Us</span></li>
+          <li><Link to={"/"} className="menu-item">Home</Link></li>
+          <li><Link to={"/about"} className="menu-item">About</Link></li>
           <li><span className="menu-item">Projects</span></li>
-          <li><span className="menu-item">Marketing Partners</span></li>
-          <li><span className="menu-item">Why Collaborating</span></li>
+          <li><Link to={"/marketingpartner"} className="menu-item">Marketing Partners</Link></li>
+          <li><Link to={"/whycollaborating"} className="menu-item">Why Collaborating</Link></li>
           <li><span className="menu-item">Contact</span></li>
         </ul>
 

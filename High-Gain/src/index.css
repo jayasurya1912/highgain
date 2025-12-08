@@ -5,6 +5,12 @@
       font-family: "Poppins", sans-serif;
     }
 
+
+    html, body {
+  overflow-x: hidden !important;
+}
+
+
     /* NAV LINKS */
 .navbar-nav .nav-link {
   font-weight: 600;
@@ -775,4 +781,575 @@
   opacity: 1;
   visibility: visible;
 }
+.hero-section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* LEFT TEXT */
+.hero-text {
+  padding-left: 60px;
+}
+
+.display-line {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* RIGHT IMAGE */
+/* MAIN BANNER SECTION */
+.hg-banner-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/aboutban.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+/* LEFT WHITE GRADIENT FADE */
+
+
+/* TEXT STYLING */
+.hg-banner-text {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+}
+
+.hg-banner-text h1 {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 0;
+  color: black;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 992px) {
+  .hg-banner-section {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .hg-banner-text h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hg-banner-text {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hg-banner-overlay {
+    background: rgba(255,255,255,0.55); /* softer fade on mobile */
+  }
+}
+
+/* Section Title */
+.partners-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+/* Wrapper for each person card */
+.partner-item {
+  padding: 10px;
+}
+
+/* Image placeholder box */
+.partner-img {
+  width: 100%;
+  height: 300px;
+  background-color: #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+
+/* Name styling */
+.partner-fullname {
+  font-weight: 700;
+  margin-bottom: 2px;
+  text-align: start;
+  font-family: "Cinzel", serif
+}
+
+/* Designation styling */
+.partners-role {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  text-align: start;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+}
+/* WRAPPER */
+.hg-about-wrapper {
+  font-family: "Inknut Antiqua", serif;
+}
+
+/* LEFT TEXT */
+.hg-about-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.hg-about-para {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.hg-about-btn {
+  background: black;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* RIGHT SIDE IMAGE SECTION */
+.hg-about-img-wrapper {
+  min-height: 550px;
+}
+
+/* BIG IMAGE */
+
+
+/* RESPONSIVE FIXES */
+@media (max-width: 992px) {
+  .hg-about-img-wrapper {
+    margin-top: 40px;
+  }
+
+  .hg-about-small-img {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hg-about-small-img {
+    width: 80%;
+    left: 10%;
+  }
+}
+/* SECTION BACKGROUND */
+.hg-vm-section {
+  background-image: url("assets/vision.png");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  position: relative;
+  color: white;
+}
+
+/* LIGHT FADE OVERLAY */
+
+
+/* ENSURE TEXT IS ON TOP OF OVERLAY */
+.hg-vm-section * {
+  position: relative;
+  z-index: 2;
+}
+
+/* TITLE */
+.hg-vm-title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 32px;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  position: relative;
+
+}
+
+/* CARDS */
+.hg-vm-card {
+  background: rgba(0,0,0,0.55);
+  padding: 40px 30px;
+  border-radius: 4px;
+  color: white;
+  backdrop-filter: blur(3px);
+  min-height: 330px;
+}
+
+/* HEADING */
+.hg-vm-heading {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
+.hg-vm-text {
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* CARD POSITIONING - MATCH SCREENSHOT */
+.hg-vm-card-left {
+  margin-top: 40px;
+}
+
+.hg-vm-card-right {
+  margin-top: 220px;  /* exactly like screenshot */
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 992px) {
+  .hg-vm-card-right {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hg-vm-title {
+    font-size: 24px;
+  }
+}
+/* Title */
+.mgmt-title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+/* Card Wrapper */
+.mgmt-card {
+  text-align: left;
+}
+
+/* Photo Container */
+.mgmt-photo {
+  width: 100%;
+  height: 260px;
+  background-color: #d5d5d5; /* placeholder */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: serif;
+  color: #111;
+}
+
+/* LEFT IMAGE SHAPE (Top-right rounded) */
+.mgmt-photo-left {
+  border-radius: 0 150px 0 0;
+}
+
+/* MIDDLE IMAGE SHAPE (Bottom-left rounded) */
+.mgmt-photo-bottom {
+  border-radius: 0 0 0 150px;
+}
+
+/* RIGHT IMAGE SHAPE (Top-left rounded) */
+.mgmt-photo-right {
+  border-radius: 150px 0 0 0;
+}
+
+/* Name */
+.mgmt-name {
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 17px;
+   font-family: "Cinzel", serif
+}
+
+/* Role */
+.mgmt-role {
+  font-size: 15px;
+  margin-bottom: 5px;
+   font-family: "Cinzel", serif
+}
+
+/* Bio */
+.mgmt-bio {
+  font-size: 15px;
+  color: #333;
+   font-family: "Cinzel", serif
+}
+
+/* RESPONSIVE FIX */
+@media (max-width: 768px) {
+  .mgmt-card {
+    text-align: center;
+  }
+
+  .mgmt-photo {
+    height: 240px;
+  }
+}
+.hg-banners-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/marketban.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  
+}
+.hg-bannerss-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/collabban.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+/* SECTION BACKGROUND */
+.hg-collab-section {
+  background-image: url("assets/wip.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* HEADING STYLE */
+.hg-collab-title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* PARAGRAPH STYLE */
+.hg-collab-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hg-collab-title {
+    font-size: 18px;
+  }
+  
+  .hg-collab-text {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+}
+/* Background Image Layer */
+.hg-benefits-section {
+  position: relative;
+  padding: 80px 0;
+}
+
+.hg-benefits-bg {
+  background-image: url("assets/wipback.png");
+  background-size: cover;
+  background-position: center;
+ /* soft fade like screenshot */
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Keep content above background */
+.hg-benefits-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Title */
+.hg-benefits-title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* Cards */
+.hg-benefit-card {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 35px 25px;
+  border-radius: 10px;
+  height: 230px; /* FIXED HEIGHT — matches screenshot */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+/* Card Headings */
+.hg-benefit-heading {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Card Text */
+.hg-benefit-text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  color: #333;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 992px) {
+  .hg-benefit-card {
+    height: auto; /* allow card to grow */
+  }
+}
+
+@media (max-width: 576px) {
+  .hg-benefits-title {
+    font-size: 20px;
+  }
+}
+/* LEFT TEXT */
+.hg-contact-text {
+  margin-top: 30px;
+}
+
+.hg-contact-small {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.hg-contact-large {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+/* RIGHT FORM CARD */
+.hg-contact-form-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* INPUT FIELDS */
+.hg-contact-input,
+.hg-contact-textarea {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 14px;
+}
+
+/* Remove blue outline on focus (clean look) */
+.hg-contact-input:focus,
+.hg-contact-textarea:focus {
+  box-shadow: none;
+  border-color: black;
+}
+
+/* SUBMIT BUTTON */
+.hg-contact-btn {
+  background: black;
+  color: white;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+  .hg-contact-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .hg-contact-large {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hg-contact-small {
+    font-size: 16px;
+  }
+  .hg-contact-large {
+    font-size: 22px;
+  }
+}
+
+.hg-bannerss-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/middlebanner.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+}
+
+/* BLACK OVERLAY */
+.hg-banners-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55); /* black transparent */
+  z-index: 1;
+}
+
+/* TEXT STYLING */
+.hg-banners-text {
+  position: relative;
+  z-index: 2;
+}
+
+.hg-banners-text h1 {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 992px) {
+  .hg-banners-section {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .hg-banners-text h1 {
+    font-size: 28px;
+  }
+}
+
+
+
+
+
 
