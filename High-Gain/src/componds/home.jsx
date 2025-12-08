@@ -14,6 +14,7 @@ import Exone from "../assets/exone.png";
 import Extwo from "../assets/extwo.png";
 import Exthree from "../assets/exthree.jpg";
 import Exfour from "../assets/exfour.png";
+import { Link } from "react-router-dom";
 
 function home()
 {
@@ -53,8 +54,8 @@ function home()
                         Connecting you to premium spaces crafted for comfort, class, and lasting value.
                     </p>
 
-                    <button className="btn btn-light banner-btn">
-                        Become a Partner <i className="fas fa-arrow-right ms-2"></i>
+                    <button className="btn btn-light banner-btn" >
+                        <Link style={{color:"black",textDecoration:"none"}} to={"/marketingpartner"} > Become a Partner <i className="fas fa-arrow-right ms-2"></i></Link>
                     </button>
 
                     </div>
@@ -106,7 +107,7 @@ function home()
                         </p>
 
                         <button class="btn btn-light know-btn">
-                            Know More
+                             <Link style={{color:"black",textDecoration:"none"}} to={"/marketingpartner"} >Know More</Link>
                         </button>
 
                         </div>
@@ -125,9 +126,9 @@ function home()
                     <div className="d-flex justify-content-between align-items-center mb-3">
                         <h3 className="section-title">Explore our projects</h3>
 
-                        <button className="btn btn-outline-dark  px-4 py-2 see-all-btn">
-                        See All Projects <i className="fas fa-arrow-right ms-2"></i>
-                        </button>
+                   
+                         <Link  className="btn btn-outline-dark  px-4 py-2 see-all-btn" style={{textDecoration:"none"}} to={"/projects"} >See All Projects <i className="fas fa-arrow-right ms-2"></i></Link>
+                       
                     </div>
 
                     {/* Carousel */}
@@ -291,9 +292,9 @@ function home()
                 </div>
 
                
-                <button class="btn btn-outline-dark  mt-5 px-4 py-2 view-btn">
-                    View All Team <i class="fas fa-arrow-right ms-2"></i>
-                </button>
+               
+                    <Link class="btn btn-outline-dark  mt-5 px-4 py-2 view-btn" style={{textDecoration:"none"}} to={"/about"} > View All Team <i class="fas fa-arrow-right ms-2"></i> </Link>
+                
 
         </section>
 
@@ -468,9 +469,9 @@ function home()
                         Explore handpicked luxury properties with personalized support at every step.
                     </p>
 
-                    <button class="btn footer-btn">
-                        Find Your Dream Home
-                    </button>
+                   
+                       <Link class="btn footer-btn" style={{textDecoration:"none"}} to={"/contact"} >   Find Your Dream Home </Link>
+                 
 
                 </div>
             </section>

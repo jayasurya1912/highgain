@@ -51,12 +51,12 @@ function Navbar() {
         <span className="sidebar-close" onClick={closeSidebar}>&times;</span>
 
         <ul className="list-unstyled sidebar-list">
-          <li><Link to={"/"} className="menu-item">Home</Link></li>
-          <li><Link to={"/about"} className="menu-item">About</Link></li>
+          <li><Link style={{textDecoration:"none"}} to={"/"} className="menu-item">Home</Link></li>
+          <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
           <li><span className="menu-item">Projects</span></li>
-          <li><Link to={"/marketingpartner"} className="menu-item">Marketing Partners</Link></li>
-          <li><Link to={"/whycollaborating"} className="menu-item">Why Collaborating</Link></li>
-          <li><span className="menu-item">Contact</span></li>
+          <li><Link style={{textDecoration:"none"}}  to={"/marketingpartner"} className="menu-item">Marketing Partners</Link></li>
+          <li><Link style={{textDecoration:"none"}} to={"/whycollaborating"} className="menu-item">Why Collaborating</Link></li>
+          <li><Link style={{textDecoration:"none"}} to={"/contact"} className="menu-item">Contact us</Link></li>
         </ul>
 
 

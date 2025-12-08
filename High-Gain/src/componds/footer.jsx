@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/mainlogo.jpg"
 function footer()
 {
@@ -28,12 +29,12 @@ function footer()
                         <h5 class="footer-heading">QUICK LINKS</h5>
 
                         <ul class="footer-links list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Marketing Patners</a></li>
-                        <li><a href="#">Why collaborating</a></li>
-                        <li><a href="#">Contact</a></li>
+                        
+                            <li><Link to={"/"}>Home</Link></li>
+                            <li><Link to={"/about"}>About</Link></li>
+                            <li><Link to={"/"}>project</Link></li>
+                            <li><Link to={"/marketingpartner"}>Marketing Partners</Link></li>
+                            <li><Link to={"/whycollaborating"}>Why Collaborating</Link></li>
                         </ul>
                     </div>
 

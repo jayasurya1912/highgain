@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import Abtn from "../assets/abtn.png";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -84,7 +85,7 @@ useEffect(() => {
                                     serve.
                                     </p>
 
-                                    <button class="hg-about-btn">Join With Us</button>
+                                     <Link  class="hg-about-btn " style={{textDecoration:"none"}} to={"/contact"} >   Join With Us </Link>
 
                                 </div>
 
