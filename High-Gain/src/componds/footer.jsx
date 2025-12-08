@@ -35,6 +35,7 @@ function footer()
                             <li><Link to={"/"}>project</Link></li>
                             <li><Link to={"/marketingpartner"}>Marketing Partners</Link></li>
                             <li><Link to={"/whycollaborating"}>Why Collaborating</Link></li>
+                            <li><Link to={"/contact"}>Contact</Link></li>
                         </ul>
                     </div>
 
