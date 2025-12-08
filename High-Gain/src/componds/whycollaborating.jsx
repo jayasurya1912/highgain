@@ -20,7 +20,7 @@ function why(){
             <Navbar/>
 
 
-                    <section class="hg-bannerss-section">
+                    <section class="hg-bannerse-section">
                                 <div class="hg-banner-overlay"></div>
 
                                 <div class="container h-100">

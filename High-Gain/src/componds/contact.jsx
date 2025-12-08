@@ -77,9 +77,7 @@ function contact()
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-12">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28862.217456450024!2d55.333639096236084!3d25.278079890964523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c35d410acf3%3A0xe8aff9f4de65bf11!2sAl%20Qusais%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1765180754437!5m2!1sen!2sin" width="100%" height="450"style={{ border: 0 }}allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-/>
-
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28862.217456450024!2d55.333639096236084!3d25.278079890964523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c35d410acf3%3A0xe8aff9f4de65bf11!2sAl%20Qusais%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1765180754437!5m2!1sen!2sin" width="100%" height="450"style={{ border: 0 }}allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
                                 </div>
                             </div>
                         </div>
