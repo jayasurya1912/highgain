@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Market from "./componds/marketingpartners";
 import Why from "./componds/whycollaborating";
 import Contact from "./componds/contact";
+import Project from "./componds/projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/project" element={< Project/>} />
           <Route path="/marketingpartner" element={<Market />} />
           <Route path="/whycollaborating" element={<Why />} />
           <Route path="/contact" element={<Contact/>} />

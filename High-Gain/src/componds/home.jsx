@@ -62,25 +62,25 @@ function home()
                 </div>
              </section>
 
-            <div className="container-fluid" style={{background:"black"}}>
-            <section class="about-section">
-                <div class="container px-0">
-                    <div class="row g-0">
+            <div className="container-fluid" style={{background:" rgb(58, 58, 58)"}} data-aos="fade-down">
+            <section className="about-section">
+                <div className="container px-0">
+                    <div className="row g-0">
 
                     
-                    <div class="col-lg-6" style={{background:"black"}}>
-                        <img src={Homein} class="img-fluid about-img" alt="" style={{paddingTop:"60px",paddingBottom:"50px"}}/>
+                    <div className="col-lg-6" style={{background:"black"}} >
+                        <img src={Homein} className="img-fluid about-img" alt="" style={{background:" rgb(58, 58, 58)",paddingTop:"60px",paddingBottom:"50px"}}/>
                     </div>
 
                     
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div class="about-content">
+                    <div className="col-lg-6 d-flex align-items-center">
+                        <div className="about-content">
 
-                        <h2 class="about-title">
+                        <h2 className="about-title">
                             HIGHGAIN — WHERE TRUSTED PARTNERS & HAPPY CLIENTS CONNECT
                         </h2>
 
-                        <p class="about-text">
+                        <p className="about-text">
                             HighGain Real Estate is one of Dubai’s most trusted and reliable property firms,
                             dedicated to helping individuals, families, and investors find the perfect space to call
                             home or grow their wealth. We specialize in guiding clients through every step of their
@@ -89,7 +89,7 @@ function home()
                             a smooth, informed, and rewarding experience.
                         </p>
 
-                        <p class="about-text">
+                        <p className="about-text">
                             Our mission is simple: to turn property dreams into reality through trust, knowledge,
                             and exceptional service. With a deep understanding of the Dubai real estate market,
                             we focus on delivering value-driven solutions that empower our clients to make confident
@@ -97,7 +97,7 @@ function home()
                             satisfaction is at the core of everything we do.
                         </p>
 
-                        <p class="about-text">
+                        <p className="about-text">
                             Strengthening our commitment is the support of our dedicated marketing partners,
                             who play a vital role in enhancing our brand presence and promoting our projects with
                             strategic precision. Their expertise in digital outreach, real estate marketing, and client
@@ -106,7 +106,7 @@ function home()
                             experience for every client we serve.
                         </p>
 
-                        <button class="btn btn-light know-btn">
+                        <button className="btn btn-light know-btn">
                              <Link style={{color:"black",textDecoration:"none"}} to={"/marketingpartner"} >Know More</Link>
                         </button>
 
@@ -120,7 +120,7 @@ function home()
 
           
 
-            <section className="projects-section container py-5">
+            <section className="projects-section container py-5" data-aos="zoom-in">
 
                     {/* Header Row */}
                     <div className="d-flex justify-content-between align-items-center mb-3">
@@ -215,7 +215,7 @@ function home()
             </section>
 
 
-            <div className="container-fluid">
+            <div className="container-fluid" data-aos="fade-up-right">
 
                 <div className="row">
 
@@ -235,50 +235,50 @@ function home()
 
           
 
-        <section class="partners-section container py-5">
+        <section className="partners-section container py-5" data-aos="fade-up-left" >
 
                
-                <h3 class="partners-title mb-4">MEET THE PATNERS</h3>
+                <h3 className="partners-title mb-4">MEET THE PATNERS</h3>
 
              
-                <div class="position-relative">
+                <div className="position-relative">
 
                    
-                    <div class="partners-slider d-flex" id="partnersSlider">
+                    <div className="partners-slider d-flex" id="partnersSlider">
 
                    
-                    <div class="partner-card">
-                        <div class="photo-box">PHOTO</div>
-                        <h5 class="partner-name">Name</h5>
-                        <p class="partner-role">Designation</p>
+                    <div className="partner-card">
+                        <div className="photo-box">PHOTO</div>
+                        <h5 className="partner-name">Name</h5>
+                        <p className="partner-role">Designation</p>
                     </div>
 
                    
-                    <div class="partner-card">
-                        <div class="photo-box">PHOTO</div>
-                        <h5 class="partner-name">Name</h5>
-                        <p class="partner-role">Designation</p>
+                    <div className="partner-card">
+                        <div className="photo-box">PHOTO</div>
+                        <h5 className="partner-name">Name</h5>
+                        <p className="partner-role">Designation</p>
                     </div>
 
                     
-                    <div class="partner-card">
-                        <div class="photo-box">PHOTO</div>
-                        <h5 class="partner-name">Name</h5>
-                        <p class="partner-role">Designation</p>
+                    <div className="partner-card">
+                        <div className="photo-box">PHOTO</div>
+                        <h5 className="partner-name">Name</h5>
+                        <p className="partner-role">Designation</p>
                     </div>
 
                    
-                    <div class="partner-card">
-                        <div class="photo-box">PHOTO</div>
-                        <h5 class="partner-name">Name</h5>
-                        <p class="partner-role">Designation</p>
+                    <div className="partner-card">
+                        <div className="photo-box">PHOTO</div>
+                        <h5 className="partner-name">Name</h5>
+                        <p className="partner-role">Designation</p>
                     </div>
 
                   
-                    <div class="partner-card">
-                        <div class="photo-box">PHOTO</div>
-                        <h5 class="partner-name">Name</h5>
-                        <p class="partner-role">Designation</p>
+                    <div className="partner-card">
+                        <div className="photo-box">PHOTO</div>
+                        <h5 className="partner-name">Name</h5>
+                        <p className="partner-role">Designation</p>
                     </div>
 
                     
@@ -286,60 +286,60 @@ function home()
                     </div>
 
                
-                    <button class="arrow-btn left-arrow" id="prevBtn">❮</button>
-                    <button class="arrow-btn right-arrow" id="nextBtn">❯</button>
+                    <button className="arrow-btn left-arrow" id="prevBtn">❮</button>
+                    <button className="arrow-btn right-arrow" id="nextBtn">❯</button>
 
                 </div>
 
                
                
-                    <Link class="btn btn-outline-dark  mt-5 px-4 py-2 view-btn" style={{textDecoration:"none"}} to={"/about"} > View All Team <i class="fas fa-arrow-right ms-2"></i> </Link>
+                    <Link className="btn btn-outline-dark  mt-5 px-4 py-2 view-btn" style={{textDecoration:"none"}} to={"/about"} > View All Team <i className="fas fa-arrow-right ms-2"></i> </Link>
                 
 
         </section>
 
 
 
-        <section class="review-section">
+        <section className="review-section" data-aos="fade-down-right">
 
            
            
 
-            <div class="container py-5 position-relative">
+            <div className="container py-5 position-relative">
 
                
-                <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div id="reviewCarousel" className="carousel slide" data-bs-ride="carousel">
 
               
                 
                
-                <div class="carousel-inner">
+                <div className="carousel-inner">
 
                     
-                    <div class="carousel-item active">
-                    <div class="row gy-4">
+                    <div className="carousel-item active">
+                    <div className="row gy-4">
                         
-                        <div class="col-md-6">
-                        <div class="review-card">
-                            <img src={Person} class="review-img"/>
+                        <div className="col-md-6">
+                        <div className="review-card">
+                            <img src={Person} className="review-img"/>
 
-                            <p class="review-text">
+                            <p className="review-text">
                             “From the very first call, their team understood exactly what I was looking for...”
                             </p>
 
-                            <p class="review-name">— Aisha Rahman</p>
+                            <p className="review-name">— Aisha Rahman</p>
                         </div>
                         </div>
 
-                        <div class="col-md-6">
-                        <div class="review-card">
-                            <img src={Personone} class="review-img"/>
+                        <div className="col-md-6">
+                        <div className="review-card">
+                            <img src={Personone} className="review-img"/>
 
-                            <p class="review-text">
+                            <p className="review-text">
                             “They handled everything from property search to final paperwork with outstanding professionalism...”
                             </p>
 
-                            <p class="review-name">— Noura Al Saadi</p>
+                            <p className="review-name">— Noura Al Saadi</p>
                         </div>
                         </div>
 
@@ -347,22 +347,22 @@ function home()
                     </div>
 
                     
-                    <div class="carousel-item">
-                    <div class="row gy-4">
+                    <div className="carousel-item">
+                    <div className="row gy-4">
 
-                        <div class="col-md-6">
-                        <div class="review-card">
-                            <img src="img3.jpg" class="review-img"/>
-                            <p class="review-text">“Amazing experience, highly responsive team...”</p>
-                            <p class="review-name">— Hassan Ali</p>
+                        <div className="col-md-6">
+                        <div className="review-card">
+                            <img src="img3.jpg" className="review-img"/>
+                            <p className="review-text">“Amazing experience, highly responsive team...”</p>
+                            <p className="review-name">— Hassan Ali</p>
                         </div>
                         </div>
 
-                        <div class="col-md-6">
-                        <div class="review-card">
-                            <img src="img4.jpg" class="review-img"/>
-                            <p class="review-text">“Great professionalism and transparency...”</p>
-                            <p class="review-name">— Maria Joseph</p>
+                        <div className="col-md-6">
+                        <div className="review-card">
+                            <img src="img4.jpg" className="review-img"/>
+                            <p className="review-text">“Great professionalism and transparency...”</p>
+                            <p className="review-name">— Maria Joseph</p>
                         </div>
                         </div>
 
@@ -370,26 +370,26 @@ function home()
                     </div>
 
                    
-                    <div class="carousel-item">
-                    <div class="row gy-4">
-                        <div class="col-md-6"><div class="review-card"><img src="img5.jpg" class="review-img"/><p class="review-text">“Excellent service...”</p><p class="review-name">— Ahmed Khan</p></div></div>
-                        <div class="col-md-6"><div class="review-card"><img src="img6.jpg" class="review-img"/><p class="review-text">“They really care...”</p><p class="review-name">— Fatima Noor</p></div></div>
+                    <div className="carousel-item">
+                    <div className="row gy-4">
+                        <div className="col-md-6"><div className="review-card"><img src="img5.jpg" className="review-img"/><p className="review-text">“Excellent service...”</p><p className="review-name">— Ahmed Khan</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src="img6.jpg" className="review-img"/><p className="review-text">“They really care...”</p><p className="review-name">— Fatima Noor</p></div></div>
                     </div>
                     </div>
 
                  
-                    <div class="carousel-item">
-                    <div class="row gy-4">
-                        <div class="col-md-6"><div class="review-card"><img src="img7.jpg" class="review-img"/><p class="review-text">“Great communication...”</p><p class="review-name">— Omar Al Saleh</p></div></div>
-                        <div class="col-md-6"><div class="review-card"><img src="img8.jpg" class="review-img"/><p class="review-text">“Perfect buying experience...”</p><p class="review-name">— Zoya Malik</p></div></div>
+                    <div className="carousel-item">
+                    <div className="row gy-4">
+                        <div className="col-md-6"><div className="review-card"><img src="img7.jpg" className="review-img"/><p className="review-text">“Great communication...”</p><p className="review-name">— Omar Al Saleh</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src="img8.jpg" className="review-img"/><p className="review-text">“Perfect buying experience...”</p><p className="review-name">— Zoya Malik</p></div></div>
                     </div>
                     </div>
 
                   
-                    <div class="carousel-item">
-                    <div class="row gy-4">
-                        <div class="col-md-6"><div class="review-card"><img src="img9.jpg" class="review-img"/><p class="review-text">“Great support...”</p><p class="review-name">— Yusuf Farhan</p></div></div>
-                        <div class="col-md-6"><div class="review-card"><img src="img10.jpg" class="review-img"/><p class="review-text">“Very professional...”</p><p class="review-name">— Noor Sabreen</p></div></div>
+                    <div className="carousel-item">
+                    <div className="row gy-4">
+                        <div className="col-md-6"><div className="review-card"><img src="img9.jpg" className="review-img"/><p className="review-text">“Great support...”</p><p className="review-name">— Yusuf Farhan</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src="img10.jpg" className="review-img"/><p className="review-text">“Very professional...”</p><p className="review-name">— Noor Sabreen</p></div></div>
                     </div>
                     </div>
 
@@ -397,8 +397,8 @@ function home()
 
                 </div>
             </div>
-            <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"></button>
+            <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" className="active"></button>
                     <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1"></button>
                     <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="2"></button>
                     <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="3"></button>
@@ -412,42 +412,42 @@ function home()
 
 
 
-            <section class="contact-section py-5">
-                <div class="container">
-                    <div class="contact-wrapper">
+            <section className="contact-section py-5"  data-aos="fade-down-left">
+                <div className="container">
+                    <div className="contact-wrapper">
 
-                    <div class="row g-0 align-items-center">
+                    <div className="row g-0 align-items-center">
 
                     
-                        <div class="col-lg-6 p-5 form-area">
+                        <div className="col-lg-6 p-5 form-area">
 
-                        <h3 class="contact-title text-center mb-4">GET IN TOUCH</h3>
+                        <h3 className="contact-title text-center mb-4">GET IN TOUCH</h3>
 
                         <form>
-                            <div class="mb-4">
-                            <input type="text" class="form-control contact-input" placeholder="Your Name*"/>
+                            <div className="mb-4">
+                            <input type="text" className="form-control contact-input" placeholder="Your Name*"/>
                             </div>
 
-                            <div class="mb-4">
-                            <input type="text" class="form-control contact-input" placeholder="Phone Number*"/>
+                            <div className="mb-4">
+                            <input type="text" className="form-control contact-input" placeholder="Phone Number*"/>
                             </div>
 
-                            <div class="mb-4">
-                            <input type="email" class="form-control contact-input" placeholder="Email*"/>
+                            <div className="mb-4">
+                            <input type="email" className="form-control contact-input" placeholder="Email*"/>
                             </div>
 
-                            <div class="mb-4">
-                            <textarea rows="4" class="form-control contact-input" placeholder="Message"></textarea>
+                            <div className="mb-4">
+                            <textarea rows="4" className="form-control contact-input" placeholder="Message"></textarea>
                             </div>
 
-                            <button type="submit" class="btn submit-btn w-100">SUBMIT</button>
+                            <button type="submit" className="btn submit-btn w-100">SUBMIT</button>
                         </form>
 
                         </div>
 
                     
-                        <div class="col-lg-6">
-                        <img src={Form} class="img-fluid contact-img" alt=""/>
+                        <div className="col-lg-6">
+                        <img src={Form} className="img-fluid contact-img" alt=""/>
                         </div>
 
                     </div>
@@ -458,19 +458,19 @@ function home()
 
 
 
-            <section class="footer-banner">
-                <div class="banner-content">
+            <section className="footer-banner" data-aos="zoom-in">
+                <div className="banner-content">
 
-                    <h2 class="footer-title">
+                    <h2 className="footer-title">
                         Looking for a Home That Truly Fits Your Lifestyle?
                     </h2>
 
-                    <p class="footer-subtitle">
+                    <p className="footer-subtitle">
                         Explore handpicked luxury properties with personalized support at every step.
                     </p>
 
                    
-                       <Link class="btn footer-btn" style={{textDecoration:"none"}} to={"/contact"} >   Find Your Dream Home </Link>
+                       <Link className="btn footer-btn" style={{textDecoration:"none"}} to={"/contact"} >   Find Your Dream Home </Link>
                  
 
                 </div>

@@ -12,12 +12,12 @@ function contact()
         
 
 
-            <section class="hg-bannerss-section">
-                <div class="hg-banners-overlay"></div>
+            <section className="hg-bannerss-section">
+                <div className="hg-banners-overlay"></div>
 
-                <div class="container h-100">
-                    <div class="row h-100 justify-content-center align-items-center">
-                        <div class="col-lg-12 hg-banners-text text-center">
+                <div className="container h-100">
+                    <div className="row h-100 justify-content-center align-items-center">
+                        <div className="col-lg-12 hg-banners-text text-center">
                             <h1>CONTACT US</h1>
                         
                         </div>
@@ -28,42 +28,42 @@ function contact()
 
 
 
-             <section class="contact-section py-5">
-                            <div class="container">
-                                <div class="contact-wrapper">
+             <section className="contact-section py-5"  data-aos="zoom-out-up">
+                            <div className="container">
+                                <div className="contact-wrapper">
             
-                                <div class="row g-0 align-items-center">
+                                <div className="row g-0 align-items-center">
             
                                 
-                                    <div class="col-lg-6 p-5 form-area">
+                                    <div className="col-lg-6 p-5 form-area">
             
-                                    <h3 class="contact-title text-center mb-4">GET IN TOUCH</h3>
+                                    <h3 className="contact-title text-center mb-4">GET IN TOUCH</h3>
             
                                     <form>
-                                        <div class="mb-4">
-                                        <input type="text" class="form-control contact-input" placeholder="Your Name*"/>
+                                        <div className="mb-4">
+                                        <input type="text" className="form-control contact-input" placeholder="Your Name*"/>
                                         </div>
             
-                                        <div class="mb-4">
-                                        <input type="text" class="form-control contact-input" placeholder="Phone Number*"/>
+                                        <div className="mb-4">
+                                        <input type="text" className="form-control contact-input" placeholder="Phone Number*"/>
                                         </div>
             
-                                        <div class="mb-4">
-                                        <input type="email" class="form-control contact-input" placeholder="Email*"/>
+                                        <div className="mb-4">
+                                        <input type="email" className="form-control contact-input" placeholder="Email*"/>
                                         </div>
             
-                                        <div class="mb-4">
-                                        <textarea rows="4" class="form-control contact-input" placeholder="Message"></textarea>
+                                        <div className="mb-4">
+                                        <textarea rows="4" className="form-control contact-input" placeholder="Message"></textarea>
                                         </div>
             
-                                        <button type="submit" class="btn submit-btn w-100">SUBMIT</button>
+                                        <button type="submit" className="btn submit-btn w-100">SUBMIT</button>
                                     </form>
             
                                     </div>
             
                                 
-                                    <div class="col-lg-6">
-                                    <img src={Form} class="img-fluid contact-img" alt=""/>
+                                    <div className="col-lg-6">
+                                    <img src={Form} className="img-fluid contact-img" alt=""/>
                                     </div>
             
                                 </div>

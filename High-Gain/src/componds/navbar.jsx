@@ -24,7 +24,7 @@ function Navbar() {
           <ul className="navbar-nav desktop-menu d-flex align-items-center">
             <li className="nav-item"><Link className="nav-link" to={"/"}>Home</Link></li>
             <li className="nav-item"><Link className="nav-link" to={"/about"}>About</Link></li>
-            <li className="nav-item"><a className="nav-link" href="#">Projects</a></li>
+            <li className="nav-item"><Link className="nav-link" to={"/project"}>Project</Link></li>
             <li className="nav-item"><Link className="nav-link" to={"/marketingpartner"}>Marketing Partners</Link></li>
             <li className="nav-item"><Link className="nav-link" to={"/whycollaborating"}>Why Collaborating</Link></li>
             <li className="nav-item"><Link className="nav-link" to={"/contact"}>Contact</Link></li>
@@ -53,8 +53,8 @@ function Navbar() {
         <ul className="list-unstyled sidebar-list">
           <li><Link style={{textDecoration:"none"}} to={"/"} className="menu-item">Home</Link></li>
           <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
-          <li><span className="menu-item">Projects</span></li>
-          <li><Link style={{textDecoration:"none"}}  to={"/marketingpartner"} className="menu-item">Marketing Partners</Link></li>
+          <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
+          <li><Link style={{textDecoration:"none"}}  to={"/project"} className="menu-item">Project</Link></li>
           <li><Link style={{textDecoration:"none"}} to={"/whycollaborating"} className="menu-item">Why Collaborating</Link></li>
           <li><Link style={{textDecoration:"none"}} to={"/contact"} className="menu-item">Contact us</Link></li>
         </ul>

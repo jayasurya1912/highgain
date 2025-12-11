@@ -17,13 +17,13 @@ function market(){
         
                  <Navbar/>
 
-                    <section class="hg-banners-section">
-                        <div class="hg-banner-overlay"></div>
+                    <section className="hg-banners-section">
+                        <div className="hg-banner-overlay"></div>
 
-                        <div class="container h-100">
-                            <div class="row h-100 align-items-center">
+                        <div className="container h-100">
+                            <div className="row h-100 align-items-center">
 
-                            <div class="col-lg-6 col-md-8 col-12 hg-banner-text">
+                            <div className="col-lg-6 col-md-8 col-12 hg-banner-text">
                                 <h1>BUILDING </h1>
                                 <h1>TRUST </h1>
                                 <h1>DELIVERING</h1>
@@ -37,83 +37,83 @@ function market(){
 
 
 
-                    <section class="partners-wrapper py-5">
-                            <div class="container">
+                    <section className="partners-wrapper py-5" data-aos="zoom-in">
+                            <div className="container">
 
-                                <h5 class="partners-title mb-4">MEET THE PARTNERS</h5>
+                                <h5 className="partners-title mb-4">MEET THE PARTNERS</h5>
 
-                                <div class="row g-4">
+                                <div className="row g-4">
 
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center" >
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="partner-item text-center">
-                                    <div class="partner-img"></div>
-                                    <h6 class="partner-fullname mt-3">Name</h6>
-                                    <p class="partners-role">Designation</p>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="partner-item text-center">
+                                    <div className="partner-img"></div>
+                                    <h6 className="partner-fullname mt-3">Name</h6>
+                                    <p className="partners-role">Designation</p>
                                     </div>
                                 </div>
 

@@ -24,13 +24,13 @@ useEffect(() => {
         
         <Navbar/>
 
-                <section class="hg-banner-section">
-                        <div class="hg-banner-overlay"></div>
+                <section className="hg-banner-section">
+                        <div className="hg-banner-overlay"></div>
 
-                        <div class="container h-100">
-                            <div class="row h-100 align-items-center">
+                        <div className="container h-100">
+                            <div className="row h-100 align-items-center">
 
-                            <div class="col-lg-6 col-md-8 col-12 hg-banner-text">
+                            <div className="col-lg-6 col-md-8 col-12 hg-banner-text">
                                 <h1>BUILDING </h1>
                                 <h1>TRUST </h1>
                                 <h1>DELIVERING</h1>
@@ -46,18 +46,18 @@ useEffect(() => {
 
 
 
-                    <section class="hg-about-wrapper py-5">
-                            <div class="container">
-                                <div class="row align-items-center">
+                    <section className="hg-about-wrapper py-5" data-aos="zoom-in-down">
+                            <div className="container">
+                                <div className="row align-items-center">
 
                          
-                                <div class="col-lg-6 col-md-12 hg-about-text">
+                                <div className="col-lg-6 col-md-12 hg-about-text">
                                     
-                                    <h2 class="hg-about-title" style={{marginBottom:"50px"}}>
+                                    <h2 className="hg-about-title" style={{marginBottom:"50px"}}>
                                     HIGHGAIN — WHERE TRUSTED PARTNERS & HAPPY CLIENTS CONNECT
                                     </h2>
 
-                                    <p class="hg-about-para">
+                                    <p className="hg-about-para">
                                      HighGain Real Estate is one of Dubai’s most trusted and reliable property 
                                         firms, dedicated to helping individuals, families, and investors find the 
                                         perfect space to call home or grow their wealth. We specialize in guiding 
@@ -67,7 +67,7 @@ useEffect(() => {
                                         informed, and rewarding experience.
                                     </p>
 
-                                    <p class="hg-about-para">
+                                    <p className="hg-about-para">
                                      Our mission is simple: to turn property dreams into reality through trust, 
                                     knowledge, and exceptional service. With a deep understanding of the Dubai real 
                                     estate market, we focus on delivering value-driven solutions that empower our 
@@ -75,7 +75,7 @@ useEffect(() => {
                                     goals become our priority, and your satisfaction is at the core of everything we do.
                                     </p>
 
-                                    <p class="hg-about-para">
+                                    <p className="hg-about-para">
                                      Strengthening our commitment is the support of our dedicated marketing 
                                     partners, who play a vital role in enhancing our brand presence and promoting 
                                     our projects with strategic precision. Their expertise in digital outreach, real estate 
@@ -85,12 +85,12 @@ useEffect(() => {
                                     serve.
                                     </p>
 
-                                     <Link  class="hg-about-btn " style={{textDecoration:"none"}} to={"/contact"} >   Join With Us </Link>
+                                     <Link  className="hg-about-btn " style={{textDecoration:"none"}} to={"/contact"} >   Join With Us </Link>
 
                                 </div>
 
                               
-                                <div class="col-lg-6 col-md-12 position-relative hg-about-img-wrapper">
+                                <div className="col-lg-6 col-md-12 position-relative hg-about-img-wrapper">
 
                                   
                                     <img src={Abtn} alt="Abtn" width="100%" />
@@ -104,20 +104,20 @@ useEffect(() => {
 
 
 
-                    <section class="hg-vm-section">
-                            <div class="container position-relative">
+                    <section className="hg-vm-section" data-aos="fade-down">
+                            <div className="container position-relative">
 
-                                <h2 class="hg-vm-title text-center text-black">
+                                <h2 className="hg-vm-title text-center text-black">
                                 Our Commitment to Your Future
                                 </h2>
 
-                                <div class="row justify-content-between">
+                                <div className="row justify-content-between">
 
                                 
-                                <div class="col-lg-5 col-md-6 col-12">
-                                    <div class="hg-vm-card hg-vm-card-left">
-                                    <h3 class="hg-vm-heading">VISION</h3>
-                                    <p class="hg-vm-text mt-5">
+                                <div className="col-lg-5 col-md-6 col-12" data-aos="zoom-in-left">
+                                    <div className="hg-vm-card hg-vm-card-left">
+                                    <h3 className="hg-vm-heading">VISION</h3>
+                                    <p className="hg-vm-text mt-5">
                                         HighGain Real Estate envisions becoming 
                                         Dubai’s most trusted and preferred real 
                                         estate partner by delivering exceptional 
@@ -130,10 +130,10 @@ useEffect(() => {
                                 </div>
 
                                
-                                <div class="col-lg-5 col-md-6 col-12">
-                                    <div class="hg-vm-card hg-vm-card-right">
-                                    <h3 class="hg-vm-heading">MISSION</h3>
-                                    <p class="hg-vm-text mt-5">
+                                <div className="col-lg-5 col-md-6 col-12" data-aos="zoom-in-right">
+                                    <div className="hg-vm-card hg-vm-card-right">
+                                    <h3 className="hg-vm-heading">MISSION</h3>
+                                    <p className="hg-vm-text mt-5">
                                          Our mission is to turn your property dreams 
                                         into reality through trust, expertise, and 
                                         exceptional service. We focus on delivering 
@@ -152,43 +152,43 @@ useEffect(() => {
 
 
 
-                    <section class="mgmt-section py-5">
-                            <div class="container text-center">
+                    <section className="mgmt-section py-5">
+                            <div className="container text-center">
 
-                                <h3 class="mgmt-title mb-5">OUR MANAGEMENT TEAM</h3>
+                                <h3 className="mgmt-title mb-5">OUR MANAGEMENT TEAM</h3>
 
-                                <div class="row justify-content-center g-4">
+                                <div className="row justify-content-center g-4">
 
                                
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="mgmt-card">
-                                    <div class="mgmt-photo mgmt-photo-left"></div>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+                                    <div className="mgmt-card">
+                                    <div className="mgmt-photo mgmt-photo-left"></div>
 
-                                    <h5 class="mgmt-name mt-3">Name</h5>
-                                    <p class="mgmt-role">Designation</p>
-                                    <p class="mgmt-bio">Biography</p>
+                                    <h5 className="mgmt-name mt-3">Name</h5>
+                                    <p className="mgmt-role">Designation</p>
+                                    <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>
 
                           
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="mgmt-card">
-                                    <div class="mgmt-photo mgmt-photo-bottom"></div>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                    <div className="mgmt-card">
+                                    <div className="mgmt-photo mgmt-photo-bottom"></div>
 
-                                    <h5 class="mgmt-name mt-3">Name</h5>
-                                    <p class="mgmt-role">Designation</p>
-                                    <p class="mgmt-bio">Biography</p>
+                                    <h5 className="mgmt-name mt-3">Name</h5>
+                                    <p className="mgmt-role">Designation</p>
+                                    <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>
 
                              
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="mgmt-card">
-                                    <div class="mgmt-photo mgmt-photo-right"></div>
+                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-up">
+                                    <div className="mgmt-card">
+                                    <div className="mgmt-photo mgmt-photo-right"></div>
 
-                                    <h5 class="mgmt-name mt-3">Name</h5>
-                                    <p class="mgmt-role">Designation</p>
-                                    <p class="mgmt-bio">Biography</p>
+                                    <h5 className="mgmt-name mt-3">Name</h5>
+                                    <p className="mgmt-role">Designation</p>
+                                    <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>
 
