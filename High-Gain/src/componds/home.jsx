@@ -1,6 +1,6 @@
 
 import Navbar from "./navbar";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef,useState } from "react";
 import Apple from "../assets/mainlogo.jpg"
 import Homein from "../assets/abtn.jpg"
 import Middle from "../assets/middlebanner.png"
@@ -15,6 +15,8 @@ import Extwo from "../assets/extwo.png";
 import Exthree from "../assets/exthree.jpg";
 import Exfour from "../assets/exfour.png";
 import { Link } from "react-router-dom";
+import Men from "../assets/man.png";
+import Women from "../assets/Women.png"
 
 function home()
 {
@@ -31,6 +33,43 @@ function home()
   }, []);
 
 
+    const [slideIndex, setSlideIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  const CARD_WIDTH = 280;
+  const GAP = 32;
+  const VISIBLE = 4;
+  const TOTAL = 10;
+
+  const maxIndex = TOTAL - VISIBLE;
+
+  // 🔥 Detect screen size
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 576) {
+        setIsMobile(true);
+        setSlideIndex(0); // reset slider
+      } else {
+        setIsMobile(false);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const next = () => {
+    if (!isMobile && slideIndex < maxIndex) {
+      setSlideIndex(slideIndex + 1);
+    }
+  };
+
+  const prev = () => {
+    if (!isMobile && slideIndex > 0) {
+      setSlideIndex(slideIndex - 1);
+    }
+  };
 
   useEffect(() => {
   document.title = "Home";
@@ -231,72 +270,60 @@ function home()
 
 
 
+          <section className="partners-section py-5">
+                <div className="container">
 
+                    {/* HEADER */}
+                    <div className="d-flex justify-content-between align-items-center mb-4">
+                    <h5 className="partners-title">MEET THE PARTNERS</h5>
+
+                    {!isMobile && (
+                        <div className="arrow-group">
+                        <button onClick={prev}>‹</button>
+                        <button onClick={next}>›</button>
+                        </div>
+                    )}
+                    </div>
+
+                    {/* SLIDER */}
+                    <div className="partners-viewport">
+                    <div
+                        className="partners-track"
+                        style={{
+                        transform: isMobile
+                            ? "none"
+                            : `translateX(-${slideIndex * (CARD_WIDTH + GAP)}px)`
+                        }}
+                    >
+
+                        {/* 10 MANUAL CARDS */}
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Jaya Kumar</h6><p>Director of Sales (Western Countries)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Dr. Rajarathinam</h6><p>Director of Sales (Canada / USA)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Dhayanithi Lingesan</h6><p>Director of Sales (Chennai)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Women} width="100%" alt="" /></div><h6>Deepika</h6><p>Director of Sales (Chennai)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Thomas</h6><p>Director of Sales (Pondicherry)</p></div>
+
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Siva Kumar Ramasamy</h6><p>Director of Sales (Madurai)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Nagaraj</h6><p>Director of Sales (Coimbatore)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Seerin Gani</h6><p>Director of Sales (Tirunelveli)</p></div>
+                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Sabari</h6><p>Director of Sales (Bangalore)</p></div>
+                        
+
+                    </div>
+                    </div>
+
+                    <Link to="/marketingpartner" className="view-btn">
+                    View All Team →
+                    </Link>
+
+                </div>
+            </section>
+  
+    
 
           
 
-        <section className="partners-section container py-5" data-aos="fade-up-left" >
-
-               
-                <h3 className="partners-title mb-4">MEET THE PATNERS</h3>
-
-             
-                <div className="position-relative">
-
-                   
-                    <div className="partners-slider d-flex" id="partnersSlider">
-
-                   
-                    <div className="partner-card">
-                        <div className="photo-box">PHOTO</div>
-                        <h5 className="partner-name">Name</h5>
-                        <p className="partner-role">Designation</p>
-                    </div>
-
-                   
-                    <div className="partner-card">
-                        <div className="photo-box">PHOTO</div>
-                        <h5 className="partner-name">Name</h5>
-                        <p className="partner-role">Designation</p>
-                    </div>
-
-                    
-                    <div className="partner-card">
-                        <div className="photo-box">PHOTO</div>
-                        <h5 className="partner-name">Name</h5>
-                        <p className="partner-role">Designation</p>
-                    </div>
-
-                   
-                    <div className="partner-card">
-                        <div className="photo-box">PHOTO</div>
-                        <h5 className="partner-name">Name</h5>
-                        <p className="partner-role">Designation</p>
-                    </div>
-
-                  
-                    <div className="partner-card">
-                        <div className="photo-box">PHOTO</div>
-                        <h5 className="partner-name">Name</h5>
-                        <p className="partner-role">Designation</p>
-                    </div>
-
-                    
-
-                    </div>
-
-               
-                    <button className="arrow-btn left-arrow" id="prevBtn">❮</button>
-                    <button className="arrow-btn right-arrow" id="nextBtn">❯</button>
-
-                </div>
-
-               
-               
-                    <Link className="btn btn-outline-dark  mt-5 px-4 py-2 view-btn" style={{textDecoration:"none"}} to={"/about"} > View All Team <i className="fas fa-arrow-right ms-2"></i> </Link>
-                
-
-        </section>
+      
 
 
 
@@ -352,7 +379,7 @@ function home()
 
                         <div className="col-md-6">
                         <div className="review-card">
-                            <img src="img3.jpg" className="review-img"/>
+                            <img src={Person} className="review-img"/>
                             <p className="review-text">“Amazing experience, highly responsive team...”</p>
                             <p className="review-name">— Hassan Ali</p>
                         </div>
@@ -360,7 +387,7 @@ function home()
 
                         <div className="col-md-6">
                         <div className="review-card">
-                            <img src="img4.jpg" className="review-img"/>
+                            <img src={Personone} className="review-img"/>
                             <p className="review-text">“Great professionalism and transparency...”</p>
                             <p className="review-name">— Maria Joseph</p>
                         </div>
@@ -372,24 +399,24 @@ function home()
                    
                     <div className="carousel-item">
                     <div className="row gy-4">
-                        <div className="col-md-6"><div className="review-card"><img src="img5.jpg" className="review-img"/><p className="review-text">“Excellent service...”</p><p className="review-name">— Ahmed Khan</p></div></div>
-                        <div className="col-md-6"><div className="review-card"><img src="img6.jpg" className="review-img"/><p className="review-text">“They really care...”</p><p className="review-name">— Fatima Noor</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Person} className="review-img"/><p className="review-text">“Excellent service...”</p><p className="review-name">— Ahmed Khan</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Personone} className="review-img"/><p className="review-text">“They really care...”</p><p className="review-name">— Fatima Noor</p></div></div>
                     </div>
                     </div>
 
                  
                     <div className="carousel-item">
                     <div className="row gy-4">
-                        <div className="col-md-6"><div className="review-card"><img src="img7.jpg" className="review-img"/><p className="review-text">“Great communication...”</p><p className="review-name">— Omar Al Saleh</p></div></div>
-                        <div className="col-md-6"><div className="review-card"><img src="img8.jpg" className="review-img"/><p className="review-text">“Perfect buying experience...”</p><p className="review-name">— Zoya Malik</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Person} className="review-img"/><p className="review-text">“Great communication...”</p><p className="review-name">— Omar Al Saleh</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Personone} className="review-img"/><p className="review-text">“Perfect buying experience...”</p><p className="review-name">— Zoya Malik</p></div></div>
                     </div>
                     </div>
 
                   
                     <div className="carousel-item">
                     <div className="row gy-4">
-                        <div className="col-md-6"><div className="review-card"><img src="img9.jpg" className="review-img"/><p className="review-text">“Great support...”</p><p className="review-name">— Yusuf Farhan</p></div></div>
-                        <div className="col-md-6"><div className="review-card"><img src="img10.jpg" className="review-img"/><p className="review-text">“Very professional...”</p><p className="review-name">— Noor Sabreen</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Person} className="review-img"/><p className="review-text">“Great support...”</p><p className="review-name">— Yusuf Farhan</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Personone} className="review-img"/><p className="review-text">“Very professional...”</p><p className="review-name">— Noor Sabreen</p></div></div>
                     </div>
                     </div>
 

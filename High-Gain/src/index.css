@@ -1492,6 +1492,345 @@
     transform: scale(1.1);
     background: #1ebe5c;
   }
+  /* Desktop Dropdown Styling */
+.navbar .dropdown-menu {
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+  border: none;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.navbar .dropdown-item {
+  padding: 10px 18px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #f5f5f5;
+  padding-left: 24px; /* smooth slide */
+}
+
+/* Dropdown arrow hover effect */
+.navbar .dropdown-toggle::after {
+  margin-left: 6px;
+  transition: 0.3s;
+}
+
+.navbar .dropdown-toggle:hover::after {
+  transform: rotate(180deg);
+}
+
+/* Fade Animation */
+@keyframes fadeIn {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* ---------------------------------- */
+/* MOBILE DROPDOWN STYLES */
+/* ---------------------------------- */
+
+.sidebar-list .menu-item {
+  font-size: 17px;
+  padding: 10px 0;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-list i {
+  transition: 0.3s ease;
+}
+
+.sidebar-list ul li a {
+  font-size: 15px;
+  padding: 6px 0;
+  display: block;
+}
+
+.sidebar-list ul li a:hover {
+  color: #007bff;
+  padding-left: 6px;
+}
+
+/* Dropdown container animation */
+.sidebar-list ul {
+  animation: slideDown 0.3s ease;
+}
+
+/* Slide Down Animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hg-azizi-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/aziziban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+/* FIX: Make all cards same height */
+.gallery-card {
+  height: 100%;            /* Make entire card stretch equal */
+  display: flex;
+  flex-direction: column;
+   padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+/* FIX: Make all images same height */
+.gallery-img {
+  height: 290px;           /* Set a fixed height (adjust if needed) */
+  width: 100%;
+  object-fit: cover;       /* Ensures image fits without distortion */
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.35s ease;
+  border: 3px solid white;
+}
+
+/* Content area same height */
+.gallery-card .p-3 {
+  flex-grow: 1;            /* Push content to fill remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title + content spacing */
+.gallery-card h5 {
+  margin-bottom: 8px;
+  font-family: "Cinzel", serif;
+}
+
+.gallery-card p {
+  flex-grow: 1;            /* Forces all descriptions to equal height */
+}
+
+
+.gallery-card:hover .gallery-img {
+  transform: scale(1.08);
+}
+
+.hover-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.gallery-card:hover .hover-icon {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.gallery-card:hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px 10px 0 0;
+}
+
+.gallery-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.hg-acube-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/acubeban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+.hg-bin-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/binban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+.hg-damac-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/damacban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+.hg-object-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/objban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+.hg-emmar-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/emmarban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+.hg-elli-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/elliban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+.hg-sam-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/samanaban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+
+.hg-so-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("assets/sobhaban.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers content horizontally */
+ 
+}
+/* DESKTOP */
+.partners-viewport {
+  overflow: hidden;
+  width: calc((280px * 5) + (32px * 4));
+}
+
+.partners-track {
+  display: flex;
+  gap: 32px;
+  transition: transform 0.45s ease;
+}
+
+.partner-card {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.photo {
+  height: 360px;
+  background: #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  margin-bottom: 14px;
+}
+
+.arrow-group button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #000;
+  background: #fff;
+  font-size: 22px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.view-btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+  .partners-viewport {
+    width: calc((280px * 3) + (32px * 2));
+  }
+}
+
+/* 🔥 MOBILE – BULLETPROOF FIX */
+@media (max-width: 576px) {
+  .partners-viewport {
+    width: 100%;
+  }
+
+  .partners-track {
+    flex-direction: column;
+    gap: 24px;
+    transform: none !important;
+  }
+
+  .partner-card {
+    width: 100%;
+  }
+
+  .photo {
+    height: 300px;
+  }
+}
+
 
 
 
