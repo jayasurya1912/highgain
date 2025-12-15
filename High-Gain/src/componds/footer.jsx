@@ -47,7 +47,7 @@ function Footer() {
               <ul className="footer-links list-unstyled">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/project">Project</Link></li>
+                <li><Link to="/azizi">Project</Link></li>
                 <li><Link to="/marketingpartner">Marketing Partners</Link></li>
                 <li><Link to="/whycollaborating">Why Collaborating</Link></li>
                 <li><Link to="/contact">Contact</Link></li>

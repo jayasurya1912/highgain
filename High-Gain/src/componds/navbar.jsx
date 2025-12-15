@@ -59,12 +59,13 @@ function Navbar() {
             <li className="nav-item"><Link className="nav-link" to={"/contact"}>Contact</Link></li>
 
             <li className="nav-item nav-icons ms-4">
-              <img src={What} alt="whatsapp" width="26" />
+              <img className="bounce" src={What} alt="whatsapp" width="26" />
             </li>
 
             <li className="nav-item nav-icons ms-5" style={{ marginTop: "-5px" }}>
-              <img src={Phone} alt="call" width="20" />
+              <img className="bounce delay" src={Phone} alt="call" width="20" />
             </li>
+
           </ul>
 
           {/* MOBILE MENU ICON */}
@@ -115,10 +116,12 @@ function Navbar() {
         </ul>
 
 
-        <div className="mt-3 d-flex gap-3">
-          <img src={What} width="28" alt="" />
-          <img src={Phone} width="28" alt="" />
-        </div>
+        <div className="mt-3 d-flex gap-3 bounce-icons">
+  <img className="bounce" src={What} width="28" alt="WhatsApp" />
+  <img className="bounce delay" src={Phone} width="28" alt="Phone" />
+</div>
+
+
       </div>
     </>
   );

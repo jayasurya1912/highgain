@@ -1,6 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { useEffect } from "react";
+import Obnine from "../assets/obnine.png"
 
 
 function why(){
@@ -10,6 +11,30 @@ function why(){
     {
         document.title="Why Collaborating"
     },[])
+
+
+
+     const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_0cc4tup",      // ✅ Service ID
+        "template_eeapvpo",     // ✅ Template ID
+        e.target,
+        "AMawV6ygbMJr7WlNY"     // ✅ Public Key
+      )
+      .then(
+        () => {
+          alert("Thank you! We will contact you shortly.");
+          e.target.reset();
+        },
+        (error) => {
+          alert("❌ Failed to send message");
+          console.error("EmailJS Error:", error);
+        }
+      );
+  };
     
    
 
@@ -134,6 +159,57 @@ function why(){
 
 
 
+                    <section className="why-collab-section py-5">
+                        <div className="container">
+                            <div className="row align-items-stretch g-4">
+
+                            {/* LEFT CONTENT */}
+                            <div className="col-lg-6 d-flex">
+                                <div className="why-content-box w-100">
+                                <span className="badge mb-3">WHY COLLABORATE</span>
+                                <h2 className="section-title">
+                                Partner with <span>High Gain</span> for Sustainable Growth
+                                </h2>
+
+                                <p className="section-desc">
+                                    High Gain is your trusted growth partner, delivering result-driven
+                                    strategies, strong market insights, and long-term value for brands
+                                    aiming to scale faster and smarter.
+                                </p>
+
+                                <ul className="why-list">
+                                    <li>Proven industry expertise with measurable results</li>
+                                    <li>Strong partner ecosystem and business network</li>
+                                    <li>Transparent process with performance tracking</li>
+                                    <li>Customized growth strategies for every brand</li>
+                                </ul>
+
+                                <div className="mt-4">
+                                    <a href="/contact" className="btn btn-nmo px-4">
+                                    Partner With Us
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+
+                            {/* RIGHT IMAGE */}
+                            <div className="col-lg-6 d-flex">
+                                <div className="why-image-box w-100">
+                                <img
+                                    src={Obnine}
+                                    alt="Why Collaborate with High Gain"
+                                    className="img-fluid"
+                                />
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
                     <section className="hg-contact-section py-5"  data-aos="zoom-out-up">
                             <div className="container">
                                 <div className="row align-items-start justify-content-center">
@@ -148,19 +224,49 @@ function why(){
                                 <div className="col-lg-6 col-md-10 col-12">
                                     <div className="hg-contact-form-card p-4">
 
-                                    <form>
+                                    <form onSubmit={sendEmail}>
 
-                                        <input type="text" className="form-control hg-contact-input mb-3" placeholder="Your Name*" />
+                                    <input
+                                        type="text"
+                                        name="fullName"
+                                        className="form-control hg-contact-input mb-3"
+                                        placeholder="Your Name*"
+                                        required
+                                    />
 
-                                        <input type="text" className="form-control hg-contact-input mb-3" placeholder="Company Name /Profession" />
+                                    <input
+                                        type="text"
+                                        name="company"
+                                        className="form-control hg-contact-input mb-3"
+                                        placeholder="Company Name / Profession"
+                                    />
 
-                                        <input type="text" className="form-control hg-contact-input mb-3" placeholder="Phone Number" />
+                                    <input
+                                        type="text"
+                                        name="phone"
+                                        className="form-control hg-contact-input mb-3"
+                                        placeholder="Phone Number"
+                                    />
 
-                                        <input type="email" className="form-control hg-contact-input mb-3" placeholder="Email" />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        className="form-control hg-contact-input mb-3"
+                                        placeholder="Email"
+                                        required
+                                    />
 
-                                        <textarea className="form-control hg-contact-textarea mb-4" rows="4" placeholder="Message"></textarea>
+                                    <textarea
+                                        name="message"
+                                        className="form-control hg-contact-textarea mb-4"
+                                        rows="4"
+                                        placeholder="Message"
+                                        required
+                                    ></textarea>
 
-                                        <button className="hg-contact-btn w-100">SUBMIT</button>
+                                    <button type="submit" className="hg-contact-btn w-100">
+                                        SUBMIT
+                                    </button>
 
                                     </form>
 

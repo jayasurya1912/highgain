@@ -76,6 +76,30 @@ function home()
 }, []);
 
 
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_0cc4tup",      // ✅ your Service ID
+        "template_28vl0cp",     // ✅ your Template ID
+        e.target,
+        "AMawV6ygbMJr7WlNY"     // ✅ your Public Key
+      )
+      .then(
+        () => {
+          alert("Thank you! We will contact you shortly.");
+          e.target.reset();
+        },
+        (error) => {
+          alert("❌ Failed to send message");
+          console.error(error);
+        }
+      );
+  };
+
+
     return(
         <>
 
@@ -450,24 +474,52 @@ function home()
 
                         <h3 className="contact-title text-center mb-4">GET IN TOUCH</h3>
 
-                        <form>
-                            <div className="mb-4">
-                            <input type="text" className="form-control contact-input" placeholder="Your Name*"/>
-                            </div>
+                         <form onSubmit={sendEmail}>
 
-                            <div className="mb-4">
-                            <input type="text" className="form-control contact-input" placeholder="Phone Number*"/>
-                            </div>
+                        <div className="mb-4">
+                            <input
+                            type="text"
+                            name="fullName"
+                            className="form-control contact-input"
+                            placeholder="Your Name*"
+                            required
+                            />
+                        </div>
 
-                            <div className="mb-4">
-                            <input type="email" className="form-control contact-input" placeholder="Email*"/>
-                            </div>
+                        <div className="mb-4">
+                            <input
+                            type="text"
+                            name="phone"
+                            className="form-control contact-input"
+                            placeholder="Phone Number*"
+                            required
+                            />
+                        </div>
 
-                            <div className="mb-4">
-                            <textarea rows="4" className="form-control contact-input" placeholder="Message"></textarea>
-                            </div>
+                        <div className="mb-4">
+                            <input
+                            type="email"
+                            name="email"
+                            className="form-control contact-input"
+                            placeholder="Email*"
+                            required
+                            />
+                        </div>
 
-                            <button type="submit" className="btn submit-btn w-100">SUBMIT</button>
+                        <div className="mb-4">
+                            <textarea
+                            name="message"
+                            rows="4"
+                            className="form-control contact-input"
+                            placeholder="Message"
+                            required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" className="btn submit-btn w-100">
+                            SUBMIT
+                        </button>
+
                         </form>
 
                         </div>

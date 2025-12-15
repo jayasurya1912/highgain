@@ -107,7 +107,7 @@ useEffect(() => {
                     <section className="hg-vm-section" data-aos="fade-down">
                             <div className="container position-relative">
 
-                                <h2 className="hg-vm-title text-center text-black">
+                                <h2 className="hg-vm-title text-center " style={{fontWeight:"500"}}>
                                 Our Commitment to Your Future
                                 </h2>
 

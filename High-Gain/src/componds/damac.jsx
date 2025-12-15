@@ -49,7 +49,7 @@ function damac()
                     <div className="container-fluid mt-5" >
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 style={{fontWeight:"700"}}>DAMAC PROJECTS</h2>
+                                <h2 style={{fontWeight:"500"}}>DAMAC PROJECTS</h2>
                             </div>
                         </div>
                     </div>
