@@ -4,14 +4,14 @@ import { useEffect, useRef,useState } from "react";
 import Apple from "../assets/mainlogo.jpg"
 import Homein from "../assets/abtn.jpg"
 import Middle from "../assets/middlebanner.png"
-import Review from "../assets/reviewback.png";
+import Review from "../assets/reviewbac.jpeg";
 import Form from "../assets/form.jpg";
-import Foot from "../assets/footback.png";
+import Foot from "../assets/footbac.jpeg";
 import Footer from "./footer";
 import Person from "../assets/personone.jpg"
 import Personone from "../assets/persontwo.jpg";
-import Exone from "../assets/exone.png";
-import Extwo from "../assets/extwo.png";
+import Exone from "../assets/exon.jpeg";
+import Extwo from "../assets/extw.jpeg";
 import Exthree from "../assets/exthree.jpg";
 import Exfour from "../assets/exfour.png";
 import { Link } from "react-router-dom";

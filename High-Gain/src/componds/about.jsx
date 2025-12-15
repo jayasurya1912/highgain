@@ -1,7 +1,7 @@
 
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Abtn from "../assets/abtn.png";
+import Abtn from "../assets/abt.jpeg";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 

@@ -9,7 +9,7 @@ import Binfive from "../assets/binfive.webp";
 import Binsix from "../assets/binsix.png";
 import Binseven from "../assets/binseven.jpg";
 import Bineight from "../assets/bineight.webp";
-import Binnine from "../assets/binnine.png";
+import Binnine from "../assets/binnin.jpeg";
 import { useEffect } from "react";
 
 
