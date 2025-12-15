@@ -295,53 +295,122 @@ const sendEmail = (e) => {
 
 
           <section className="partners-section py-5">
-                <div className="container">
+  <div className="container">
 
-                    {/* HEADER */}
-                    <div className="d-flex justify-content-between align-items-center mb-4">
-                    <h5 className="partners-title">MEET THE PARTNERS</h5>
+    {/* HEADER */}
+    <div className="d-flex justify-content-between align-items-center mb-4">
+      <h5 className="partners-title">MEET THE PARTNERS</h5>
 
-                    {!isMobile && (
-                        <div className="arrow-group">
-                        <button onClick={prev}>‹</button>
-                        <button onClick={next}>›</button>
-                        </div>
-                    )}
-                    </div>
+      {!isMobile && (
+        <div className="arrow-group">
+          <button onClick={prev} className="arrow-btn left-arrow">‹</button>
+          <button onClick={next} className="arrow-btn right-arrow">›</button>
+        </div>
+      )}
+    </div>
 
-                    {/* SLIDER */}
-                    <div className="partners-viewport">
-                    <div
-                        className="partners-track"
-                        style={{
-                        transform: isMobile
-                            ? "none"
-                            : `translateX(-${slideIndex * (CARD_WIDTH + GAP)}px)`
-                        }}
-                    >
+    {/* SLIDER */}
+    <div className="partners-viewport">
+      <div
+        className="partners-track"
+        style={{
+          transform: isMobile
+            ? "none"
+            : `translateX(-${slideIndex * (CARD_WIDTH + GAP)}px)`
+        }}
+      >
 
-                        {/* 10 MANUAL CARDS */}
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Jaya Kumar</h6><p>Director of Sales (Western Countries)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Dr. Rajarathinam</h6><p>Director of Sales (Canada / USA)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Dhayanithi Lingesan</h6><p>Director of Sales (Chennai)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Women} width="100%" alt="" /></div><h6>Deepika</h6><p>Director of Sales (Chennai)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Thomas</h6><p>Director of Sales (Pondicherry)</p></div>
+        {/* CARD 1 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Jaya Kumar" />
+          </div>
+          <h6 className="partner-name">Jaya Kumar</h6>
+          <p className="partner-role">Director of Sales (Western Countries)</p>
+        </div>
 
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Siva Kumar Ramasamy</h6><p>Director of Sales (Madurai)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Nagaraj</h6><p>Director of Sales (Coimbatore)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Seerin Gani</h6><p>Director of Sales (Tirunelveli)</p></div>
-                        <div className="partner-card"><div className="photo"><img src={Men} width="100%" alt="" /></div><h6>Sabari</h6><p>Director of Sales (Bangalore)</p></div>
-                        
+        {/* CARD 2 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Dr. Rajarathinam" />
+          </div>
+          <h6 className="partner-name">Dr. Rajarathinam</h6>
+          <p className="partner-role">Director of Sales (Canada / USA)</p>
+        </div>
 
-                    </div>
-                    </div>
+        {/* CARD 3 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Dhayanithi Lingesan" />
+          </div>
+          <h6 className="partner-name">Dhayanithi Lingesan</h6>
+          <p className="partner-role">Director of Sales (Chennai)</p>
+        </div>
 
-                    <Link to="/marketingpartner" className="view-btn">
-                    View All Team →
-                    </Link>
+        {/* CARD 4 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Women} alt="Deepika" />
+          </div>
+          <h6 className="partner-name">Deepika</h6>
+          <p className="partner-role">Director of Sales (Chennai)</p>
+        </div>
 
-                </div>
-            </section>
+        {/* CARD 5 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Thomas" />
+          </div>
+          <h6 className="partner-name">Thomas</h6>
+          <p className="partner-role">Director of Sales (Pondicherry)</p>
+        </div>
+
+        {/* CARD 6 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Siva Kumar" />
+          </div>
+          <h6 className="partner-name">Siva Kumar Ramasamy</h6>
+          <p className="partner-role">Director of Sales (Madurai)</p>
+        </div>
+
+        {/* CARD 7 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Nagaraj" />
+          </div>
+          <h6 className="partner-name">Nagaraj</h6>
+          <p className="partner-role">Director of Sales (Coimbatore)</p>
+        </div>
+
+        {/* CARD 8 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Seerin Gani" />
+          </div>
+          <h6 className="partner-name">Seerin Gani</h6>
+          <p className="partner-role">Director of Sales (Tirunelveli)</p>
+        </div>
+
+        {/* CARD 9 */}
+        <div className="partner-card">
+          <div className="photo-box">
+            <img src={Men} alt="Sabari" />
+          </div>
+          <h6 className="partner-name">Sabari</h6>
+          <p className="partner-role">Director of Sales (Bangalore)</p>
+        </div>
+
+      </div>
+    </div>
+
+    <Link to="/marketingpartner" className="view-btn">
+      View All Team →
+    </Link>
+
+  </div>
+</section>
+
   
     
 

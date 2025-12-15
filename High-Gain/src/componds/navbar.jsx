@@ -38,7 +38,7 @@ function Navbar() {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Project
+              Projects
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="projectDropdown">
@@ -91,7 +91,7 @@ function Navbar() {
     onClick={() => setProjectOpen(!projectOpen)}
     style={{ cursor: "pointer" }}
   >
-    Project
+    Projects
     <i className={`fas fa-chevron-${projectOpen ? "up" : "down"}`}></i>
   </span>
 
