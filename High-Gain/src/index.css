@@ -1012,8 +1012,8 @@
 
 /* HEADING */
 .hg-vm-heading {
-  font-family: "Inknut Antiqua", serif;
-  font-size: 22px;
+  font-family: "Cinzel", serif;
+  font-size: 27px;
   margin-bottom: 20px;
 }
 
@@ -1021,6 +1021,7 @@
 .hg-vm-text {
   font-size: 15px;
   line-height: 1.65;
+ 
 }
 
 /* CARD POSITIONING - MATCH SCREENSHOT */

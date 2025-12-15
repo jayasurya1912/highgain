@@ -83,7 +83,6 @@ function Navbar() {
         <ul className="list-unstyled sidebar-list">
           <li><Link style={{textDecoration:"none"}} to={"/"} className="menu-item">Home</Link></li>
           <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
-          <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
           {/* PROJECT DROPDOWN (MOBILE) */}
 <li className="menu-item">
   <span
