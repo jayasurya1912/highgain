@@ -170,7 +170,7 @@ const sendEmail = (e) => {
                         </p>
 
                         <button className="btn btn-light know-btn">
-                             <Link style={{color:"black",textDecoration:"none"}} to={"/marketingpartner"} >Know More</Link>
+                             <Link style={{color:"black",textDecoration:"none"}} to={"/about"} >Know More</Link>
                         </button>
 
                         </div>

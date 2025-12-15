@@ -13,6 +13,7 @@ import Emmar from "./componds/emmar";
 import Ellignton from "./componds/ellignton";
 import Samana from "./componds/samana";
 import Sobha from "./componds/sobha";
+import Projects from "./componds/project"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/marketingpartner" element={<Market />} />
+           <Route path="/projects" element={<Projects />} />
           <Route path="/azizi" element={<Azizi />} />
           <Route path="/acube" element={<Acube />} />
           <Route path="/binghatti" element={<Binghatti />} />

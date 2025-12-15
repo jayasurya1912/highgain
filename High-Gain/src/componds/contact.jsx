@@ -2,8 +2,15 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Form from "../assets/formin.jpg";
+import { useEffect } from "react";
 function contact()
 {
+
+
+     useEffect(()=>
+        {
+            document.title="Contact"
+        },[])
 
     const sendEmail = (e) => {
     e.preventDefault();

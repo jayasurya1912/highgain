@@ -2,6 +2,7 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import { useEffect } from "react";
 import Obnine from "../assets/obnine.png"
+import { Link } from "react-router-dom";
 
 
 function why(){
@@ -185,9 +186,9 @@ function why(){
                                 </ul>
 
                                 <div className="mt-4">
-                                    <a href="/contact" className="btn btn-nmo px-4">
-                                    Partner With Us
-                                    </a>
+                                    <Link to="/contact" className="btn btn-nmo px-4">
+                                    Contact Us
+                                    </Link>
                                 </div>
                                 </div>
                             </div>
