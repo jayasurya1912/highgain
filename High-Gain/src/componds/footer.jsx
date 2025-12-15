@@ -70,7 +70,7 @@ function Footer() {
               <div className="footer-social">
                 <a href="#"><i className="fab fa-facebook-f"></i></a>
                 <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                <a href="#"><i className="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/highgainrealestate?igsh=Nm1temdqeGJ3enAx"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
 
