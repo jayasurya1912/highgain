@@ -11,6 +11,7 @@ import Binseven from "../assets/binseven.jpg";
 import Bineight from "../assets/bineight.webp";
 import Binnine from "../assets/binnin.jpeg";
 import { useEffect } from "react";
+import Abtn from "../assets/binabtn.webp";
 
 
 
@@ -48,132 +49,223 @@ function binghatti(){
             
             
             
-                        <div className="container-fluid mt-5">
-                            <div className="row">
-                                <div className="col-lg-12 text-center">
-                                    <h2 style={{fontWeight:"500"}}>BINGHATTI PROJECTS</h2>
-                                </div>
-                            </div>
-                        </div>
-            
-            
-                       <div className="container my-5" data-aos="zoom-in">
-            
-                                <div className="row g-4">
-            
-                                    {/* CARD 1 */}
-                                    <div className="col-md-4 col-sm-6"  data-aos="flip-up" >
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binone} className="img-fluid w-100 gallery-img" alt="" />
+                                    <section class="sanctuary-section" data-aos="zoom-out">
+                                        <div class="container">
+                                          <div class="row align-items-center g-5">
+                        
                                         
-                                        <div className="p-3 text-center">
-                                        <h5>AQUARISE</h5>
-            
-                                        </div>
-                                    </div>
-                                    </div>
-            
-                                    {/* CARD 2 */}
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Bintwo} className="img-fluid w-100 gallery-img" alt="" />
-                                        
-                                        <div className="p-3 text-center">
-                                        <h5>SKYBLADE</h5>
-            
-                                        </div>
-                                    </div>
-                                    </div>
-            
-                                    {/* CARD 3 */}
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binthree} className="img-fluid w-100 gallery-img" alt="" />
-                                        
-                                        <div className="p-3 text-center">
-                                        <h5>SKY HALL</h5>
-                                    
-                                        </div>
-                                    </div>
-                                    </div>
-            
-                                    {/* CARD 4 */}
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binfour} className="img-fluid w-100 gallery-img" alt="" />
-                                        
-                                        <div className="p-3 text-center">
-                                        <h5>SKY RISE</h5>
-                                
-                                        </div>
-                                    </div>
-                                    </div>
-            
-                                    {/* CARD 5 */}
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binfive} className="img-fluid w-100 gallery-img" alt="" />
-                                        
-                                        <div className="p-3 text-center">
-                                        <h5>ONE BY BINGHATTI</h5>
-                                
-                                        </div>
-                                    </div>
-                                    </div>
-            
-                                    {/* CARD 6 */}
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binsix} className="img-fluid w-100 gallery-img" alt="" />
-                                        
-                                        <div className="p-3 text-center">
-                                        <h5>TITANIA</h5>
-                                    
-                                        </div>
-                                    </div>
-                                    </div>
-            
-                                    {/* CARD 7 */}
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binseven} className="img-fluid w-100 gallery-img" alt="" />
-                                        
-                                        <div className="p-3 text-center">
-                                        <h5>APEX</h5>
-                                    
-                                        </div>
-                                    </div>
-                                    </div>
+                                            <div class="col-lg-6">
+                                              <h2 class="sanctuary-title">YOUR BINGHATTI SANCTUARY BY THE SEA</h2>
 
+                                                <p class="sanctuary-text">
+                                                Discover a signature lifestyle defined by bold architecture and intelligent
+                                                design. Binghatti’s waterfront residences combine iconic aesthetics with
+                                                thoughtfully planned living spaces that maximize light, views, and comfort.
+                                                Located in a high-growth destination with seamless connectivity, these exclusive
+                                                4, 5, and 6-bedroom villas offer panoramic sea views, premium finishes, and
+                                                refined interiors. Crafted for discerning homeowners and smart investors alike,
+                                                Binghatti delivers a lifestyle of distinction, privacy, and exceptional long-term
+                                                value in one of the region’s most sought-after developments.
+                                                </p>
 
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Bineight} className="img-fluid w-100 gallery-img" alt="" />
+                        
+                                            </div>
+                        
                                         
-                                        <div className="p-3 text-center">
-                                        <h5>AMBER HALL</h5>
-                                    
+                                            <div class="col-lg-6 position-relative">
+                                              <div class="image-wrapper">
+                                                <img src={Abtn} alt="Luxury Villa" class="img-fluid sanctuary-img"/>
+                                              </div>
+                                            </div>
+                        
+                                          </div>
+                                        </div>
+                                    </section>
+                        
+                        
+                        
+                                    <div className="container-fluid mt-5">
+                                        <div className="row">
+                                           
                                         </div>
                                     </div>
-                                    </div>
-
-
-                                    <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                    <div className="gallery-card position-relative overflow-hidden">
-                                        <img src={Binnine} className="img-fluid w-100 gallery-img" alt="" />
+                        
+                        
+                        
+                                   <section class="animated-center-slider py-5" data-aos="zoom-in" style={{marginTop:"-60px"}}>
+                                        <div class="container">
+                        
+                                           <div className="col-lg-12 text-center mt-3" style={{marginBottom:"30px"}}>
+                                                <h2 className="sanctuary-title" style={{fontWeight:"500",color:"white"}}>BINGHATTI PROJECTS</h2>
+                                            </div>
+                        
+                                          <div id="animatedSlider" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                        
+                                            
+                                              <div class="carousel-item active">
+                                                <div class="row justify-content-center align-items-center g-4">
+                        
+                                              
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binfive} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-6 col-md-10">
+                                                    <div class="slider-card center animate">
+                                                      <img src={Binone} alt=""/>
+                                                      <div class="slider-content">
+                                                        <h4>AQUARISE</h4>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                        
+                                              
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Bintwo} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                </div>
+                                              </div>
+                        
+                                          
+                                              <div class="carousel-item">
+                                                <div class="row justify-content-center align-items-center g-4">
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binone} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-6 col-md-10">
+                                                    <div class="slider-card center animate">
+                                                      <img src={Bintwo} alt=""/>
+                                                      <div class="slider-content">
+                                                        <h4>SKYBLADE</h4>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binthree} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                </div>
+                                              </div>
+                        
+                        
+                        
+                                              <div class="carousel-item">
+                                                <div class="row justify-content-center align-items-center g-4">
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Bintwo} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-6 col-md-10">
+                                                    <div class="slider-card center animate">
+                                                      <img src={Binthree} alt=""/>
+                                                      <div class="slider-content">
+                                                        <h4>SKY HALL</h4>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binfour} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                </div>
+                                              </div>
+                        
+                        
+                        
+                                              <div class="carousel-item">
+                                                <div class="row justify-content-center align-items-center g-4">
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binthree} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-6 col-md-10">
+                                                    <div class="slider-card center animate">
+                                                      <img src={Binfour} alt=""/>
+                                                      <div class="slider-content">
+                                                        <h4>SKY RISE</h4>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binfive} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                </div>
+                                              </div>
+                        
+                        
+                                              <div class="carousel-item">
+                                                <div class="row justify-content-center align-items-center g-4">
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binfour} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-6 col-md-10">
+                                                    <div class="slider-card center animate">
+                                                      <img src={Binfive} alt=""/>
+                                                      <div class="slider-content">
+                                                        <h4>ONE BY BINGHATTI</h4>
+                                                  
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                        
+                                                  <div class="col-lg-3 d-none d-lg-block">
+                                                    <div class="slider-card side">
+                                                      <img src={Binone} alt=""/>
+                                                    </div>
+                                                  </div>
+                        
+                                                </div>
+                                              </div>
+                        
+                        
+                                              
+                        
+                                            </div>
+                        
                                         
-                                        <div className="p-3 text-center">
-                                        <h5>BINGHATTI FLARE</h5>
-                                    
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#animatedSlider" data-bs-slide="prev">
+                                              <span class="carousel-control-prev-icon"></span>
+                                            </button>
+                        
+                                            <button class="carousel-control-next" type="button" data-bs-target="#animatedSlider" data-bs-slide="next">
+                                              <span class="carousel-control-next-icon"></span>
+                                            </button>
+                        
+                                          </div>
+                        
                                         </div>
-                                    </div>
-                                    </div>
-            
-                                
-            
-                                </div>
-                        </div>
-            
+                                  </section>
+                        
             
 
 

@@ -59,11 +59,11 @@ function Navbar() {
             <li className="nav-item"><Link className="nav-link" to={"/contact"}>Contact</Link></li>
 
             <li className="nav-item nav-icons ms-4">
-              <a href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img className="bounce" src={What} alt="whatsapp" width="26" /></a>
+              <a href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img className="bounce" src={What} alt="whatsapp" width="36" /></a>
             </li>
 
             <li className="nav-item nav-icons ms-5" style={{ marginTop: "-5px" }}>
-              <a href="tel:+971508364706"  target="_blank"><img className="bounce delay" src={Phone} alt="call" width="20" /></a>
+              <a href="tel:+971508364706"  target="_blank"><img className="bounce delay" src={Phone} alt="call" width="25" /></a>
             </li>
 
           </ul>

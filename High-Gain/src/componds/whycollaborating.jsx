@@ -3,6 +3,7 @@ import Footer from "./footer";
 import { useEffect } from "react";
 import Obnine from "../assets/obnine.png"
 import { Link } from "react-router-dom";
+import Ban from "../assets/elliban.jpg"
 
 
 function why(){
@@ -173,9 +174,10 @@ function why(){
                                 </h2>
 
                                 <p className="section-desc">
-                                    High Gain is your trusted growth partner, delivering result-driven
-                                    strategies, strong market insights, and long-term value for brands
-                                    aiming to scale faster and smarter.
+                                    At High Gain, collaboration is built on trust, transparency, and shared success. We work closely with our partners to create long-term value by combining strong market expertise with strategic planning and client-focused solutions. Our deep understanding of Dubai’s real estate landscape allows us to identify the right opportunities and connect them with the right audience.
+                                </p>
+                                <p className="section-desc">
+                                    By partnering with High Gain, you gain access to a professional team dedicated to enhancing brand visibility, generating quality leads, and delivering consistent results. Supported by experienced marketing partners and a commitment to ethical practices, we ensure every collaboration is structured for sustainable growth, stronger market presence, and lasting business relationships.
                                 </p>
 
                                 <ul className="why-list">
@@ -197,7 +199,7 @@ function why(){
                             <div className="col-lg-6 d-flex">
                                 <div className="why-image-box w-100">
                                 <img
-                                    src={Obnine}
+                                    src={Ban}
                                     alt="Why Collaborate with High Gain"
                                     className="img-fluid"
                                 />
@@ -247,6 +249,18 @@ function why(){
                                         name="phone"
                                         className="form-control hg-contact-input mb-3"
                                         placeholder="Phone Number"
+                                    />
+                                    <input
+                                        type="text"
+                                        name="designation"
+                                        className="form-control hg-contact-input mb-3"
+                                        placeholder="Designation"
+                                    />
+                                    <input
+                                        type="text"
+                                        name="location"
+                                        className="form-control hg-contact-input mb-3"
+                                        placeholder="Location"
                                     />
 
                                     <input

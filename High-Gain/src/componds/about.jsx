@@ -4,6 +4,9 @@ import Footer from "./footer";
 import Abtn from "../assets/abt.jpeg";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import VS from "../assets/vs.jpg";
+import CC from "../assets/cc.jpg";
+import MS from "../assets/ms.jpg"
 
 
 
@@ -103,52 +106,73 @@ useEffect(() => {
 
 
 
+                    <section class="about-values-section py-5">
+                        <div class="container">
+                            <div class="row justify-content-center g-4">
 
-                    <section className="hg-vm-section" data-aos="fade-down">
-                            <div className="container position-relative">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="value-card">
+                                <img src={MS} class="img-fluid value-img" alt="Mission"/>
 
-                                <h2 className="hg-vm-title text-center " style={{fontWeight:"500"}}>
-                                Our Commitment to Your Future
-                                </h2>
-
-                                <div className="row justify-content-between">
-
-                                
-                                <div className="col-lg-5 col-md-6 col-12" data-aos="zoom-in-left">
-                                    <div className="hg-vm-card hg-vm-card-left">
-                                    <h3 className="hg-vm-heading">VISION</h3>
-                                    <p className="hg-vm-text mt-5">
-                                        HighGain Real Estate envisions becoming 
-                                        Dubai’s most trusted and preferred real 
-                                        estate partner by delivering exceptional 
-                                        value, transparent guidance, and a seamless 
-                                        property experience. Our goal is to inspire 
-                                        confidence and create long-term success for 
-                                        every homeowner and investor we serve.
+                                <div class="value-content">
+                                    <h5 class="value-title">Our Mission</h5>
+                                    <p class="value-text">
+                                    HIGHGAIN — WHERE TRUSTED PARTNERS & HAPPY CLIENTS CONNECT.
+                                    Our mission is to turn property dreams into reality through trust,
+                                    transparency, and expert guidance. We empower individuals,
+                                    families, and investors to make confident real estate decisions
+                                    with clarity and peace of mind.
                                     </p>
-                                    </div>
                                 </div>
-
-                               
-                                <div className="col-lg-5 col-md-6 col-12" data-aos="zoom-in-right">
-                                    <div className="hg-vm-card hg-vm-card-right">
-                                    <h3 className="hg-vm-heading">MISSION</h3>
-                                    <p className="hg-vm-text mt-5">
-                                         Our mission is to turn your property dreams 
-                                        into reality through trust, expertise, and 
-                                        exceptional service. We focus on delivering 
-                                        value-driven solutions backed by deep 
-                                        knowledge of Dubai’s real estate market. At 
-                                        HighGain, your goals come first, and your 
-                                        satisfaction leads every decision we make.
-                                    </p>
-                                    </div>
-                                </div>
-
                                 </div>
                             </div>
-                    </section>
 
+                    
+                            <div class="col-lg-4 col-md-6" style={{marginTop:"80px"}}>
+                                <div class="value-card featured">
+                                <img src={VS} class="img-fluid value-img" alt="Vision"/>
+
+                                <div class="value-content">
+                                    <h5 class="value-title">Our Vision</h5>
+                                    <p class="value-text">
+                                    We envision becoming one of Dubai’s most trusted and reliable
+                                    real estate partners by delivering value-driven solutions and
+                                    exceptional service. With deep market knowledge, we strive to
+                                    create smooth, informed, and rewarding property journeys.
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+
+                           
+                            <div class="col-lg-4 col-md-6">
+                                <div class="value-card">
+                                <img src={CC} class="img-fluid value-img" alt="Core Values"/>
+
+                                <div class="value-content">
+                                    <h5 class="value-title">Core Values</h5>
+                                    <p class="value-text">
+                                    Integrity, transparency, and client-first commitment define
+                                    HighGain. Supported by our expert marketing partners, we ensure
+                                    strong visibility, strategic outreach, and a seamless experience
+                                    for every client we serve.
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        </section>
+
+
+
+
+
+
+
+
+                   
 
 
 

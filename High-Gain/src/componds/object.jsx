@@ -11,6 +11,7 @@ import Obseven from "../assets/obseven.jpg";
 import Obeight from "../assets/obeight.webp";
 import Obnine from "../assets/obnine.png";
 import { useEffect } from "react";
+import Abtn from "../assets/objectabtn.webp";
 function object(){
 
 
@@ -43,131 +44,224 @@ function object(){
         
         
         
-                    <div className="container-fluid mt-5">
-                        <div className="row">
-                            <div className="col-lg-12 text-center">
-                                <h2 style={{fontWeight:"500"}}>OBJECT 1 PROJECTS</h2>
-                            </div>
-                        </div>
-                    </div>
-        
-        
-                   <div className="container my-5" data-aos="zoom-in">
-        
-                            <div className="row g-4">
-        
-                                {/* CARD 1 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Ob} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>RA1N RESIDENCE</h5>
-        
-                                    </div>
-                                </div>
-                                </div>
-        
-                                {/* CARD 2 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obtwo} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>1WOOD RESIDENCE</h5>
-        
-                                    </div>
-                                </div>
-                                </div>
-        
-                                {/* CARD 3 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obthree} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>OZONE 1 RESIDENCE</h5>
-                                
-                                    </div>
-                                </div>
-                                </div>
-        
-                                {/* CARD 4 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obfour} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>W1NNER TOWER</h5>
-                            
-                                    </div>
-                                </div>
-                                </div>
-        
-                                {/* CARD 5 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obfive} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>LUM1NAR TOWER 1</h5>
-                            
-                                    </div>
-                                </div>
-                                </div>
-        
-                                {/* CARD 6 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obsix} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>LUM1NAR TOWER 2</h5>
-                                
-                                    </div>
-                                </div>
-                                </div>
-        
-                                {/* CARD 7 */}
-                                <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obseven} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>VERDAN1A RESIDENCE</h5>
-                                
-                                    </div>
-                                </div>
-                                </div>
+                                                        <section class="sanctuary-section" data-aos="zoom-out">
+                                                           <div class="container">
+                                                             <div class="row align-items-center g-5">
+                                           
+                                                           
+                                                               <div class="col-lg-6">
+                                                                <h2 class="sanctuary-title">YOUR OBJECT SANCTUARY BY THE SEA</h2>
 
+                                                                <p class="sanctuary-text">
+                                                                Enter a refined waterfront lifestyle where precision design and elevated living
+                                                                come together seamlessly. OBJECT presents exclusive sea-facing residences
+                                                                crafted for modern lifestyles and high-value investment returns. Strategically
+                                                                located in a fast-appreciating destination, these expansive 4, 5, and 6-bedroom
+                                                                villas offer panoramic views, intelligent layouts, and premium finishes throughout.
+                                                                Designed with a focus on privacy, elegance, and long-term growth, OBJECT delivers
+                                                                a future-ready lifestyle that blends luxury living with exceptional investment
+                                                                potential.
+                                                                </p>
 
-                                 <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obeight} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>S1LVA PARK LIVING</h5>
-                                
-                                    </div>
-                                </div>
-                                </div>
-
-
-                                 <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                                <div className="gallery-card position-relative overflow-hidden">
-                                    <img src={Obnine} className="img-fluid w-100 gallery-img" alt="" />
-                                    
-                                    <div className="p-3 text-center">
-                                    <h5>IR1DIAN PARK</h5>
-                                
-                                    </div>
-                                </div>
-                                </div>
-        
-                            
-        
-                            </div>
-                    </div>
+                   
+                                           
+                                                               </div>
+                                           
+                                                           
+                                                               <div class="col-lg-6 position-relative">
+                                                                 <div class="image-wrapper">
+                                                                   <img src={Abtn} alt="Luxury Villa" class="img-fluid sanctuary-img"/>
+                                                                 </div>
+                                                               </div>
+                                           
+                                                             </div>
+                                                           </div>
+                                                       </section>
+                                           
+                                           
+                                           
+                                                       <div className="container-fluid mt-5">
+                                                           <div className="row">
+                                                              
+                                                           </div>
+                                                       </div>
+                                           
+                                           
+                                           
+                                                      <section class="animated-center-slider py-5" data-aos="zoom-in" style={{marginTop:"-60px"}}>
+                                                           <div class="container">
+                                           
+                                                              <div className="col-lg-12 text-center mt-3" style={{marginBottom:"30px"}}>
+                                                                   <h2 className="sanctuary-title" style={{fontWeight:"500",color:"white"}}>OBJECT PROJECTS</h2>
+                                                               </div>
+                                           
+                                                             <div id="animatedSlider" class="carousel slide" data-bs-ride="carousel">
+                                                               <div class="carousel-inner">
+                                           
+                                                               
+                                                                 <div class="carousel-item active">
+                                                                   <div class="row justify-content-center align-items-center g-4">
+                                           
+                                                                 
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obfive} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-6 col-md-10">
+                                                                       <div class="slider-card center animate">
+                                                                         <img src={Ob} alt=""/>
+                                                                         <div class="slider-content">
+                                                                           <h4>RA1N RESIDENCE</h4>
+                                                                         </div>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                 
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obtwo} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                   </div>
+                                                                 </div>
+                                           
+                                                             
+                                                                 <div class="carousel-item">
+                                                                   <div class="row justify-content-center align-items-center g-4">
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Ob} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-6 col-md-10">
+                                                                       <div class="slider-card center animate">
+                                                                         <img src={Obtwo} alt=""/>
+                                                                         <div class="slider-content">
+                                                                           <h4>1WOOD RESIDENCE</h4>
+                                                                         </div>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obthree} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                   </div>
+                                                                 </div>
+                                           
+                                           
+                                           
+                                                                 <div class="carousel-item">
+                                                                   <div class="row justify-content-center align-items-center g-4">
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obtwo} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-6 col-md-10">
+                                                                       <div class="slider-card center animate">
+                                                                         <img src={Obthree} alt=""/>
+                                                                         <div class="slider-content">
+                                                                           <h4>OZONE 1 RESIDENCE</h4>
+                                                                         </div>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obfour} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                   </div>
+                                                                 </div>
+                                           
+                                           
+                                           
+                                                                 <div class="carousel-item">
+                                                                   <div class="row justify-content-center align-items-center g-4">
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obthree} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-6 col-md-10">
+                                                                       <div class="slider-card center animate">
+                                                                         <img src={Obfour} alt=""/>
+                                                                         <div class="slider-content">
+                                                                           <h4>W1NNER TOWER</h4>
+                                                                         </div>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obfive} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                   </div>
+                                                                 </div>
+                                           
+                                           
+                                                                 <div class="carousel-item">
+                                                                   <div class="row justify-content-center align-items-center g-4">
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Obfour} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-6 col-md-10">
+                                                                       <div class="slider-card center animate">
+                                                                         <img src={Obfive} alt=""/>
+                                                                         <div class="slider-content">
+                                                                           <h4>LUM1NAR TOWER 1</h4>
+                                                                     
+                                                                         </div>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                     <div class="col-lg-3 d-none d-lg-block">
+                                                                       <div class="slider-card side">
+                                                                         <img src={Ob} alt=""/>
+                                                                       </div>
+                                                                     </div>
+                                           
+                                                                   </div>
+                                                                 </div>
+                                           
+                                           
+                                                                 
+                                           
+                                                               </div>
+                                           
+                                                           
+                                                               <button class="carousel-control-prev" type="button" data-bs-target="#animatedSlider" data-bs-slide="prev">
+                                                                 <span class="carousel-control-prev-icon"></span>
+                                                               </button>
+                                           
+                                                               <button class="carousel-control-next" type="button" data-bs-target="#animatedSlider" data-bs-slide="next">
+                                                                 <span class="carousel-control-next-icon"></span>
+                                                               </button>
+                                           
+                                                             </div>
+                                           
+                                                           </div>
+                                                     </section>
+                                           
         
 
 

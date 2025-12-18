@@ -42,14 +42,14 @@ function market(){
                     <section className="partners-wrapper py-5" data-aos="zoom-in">
                             <div className="container">
 
-                                <h5 className="partners-title mb-4">MEET THE PARTNERS</h5>
+                                <h5 className="partners-title mb-4" style={{fontSize:"19px"}}>MEET THE PARTNERS</h5>
 
                                 <div className="row g-4">
 
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center" >
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Jayakumar</h6>
                                     <p className="partners-role">Director of Sales (Western Countries)</p>
                                     </div>
@@ -57,7 +57,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Dr. Rajarathinam</h6>
                                     <p className="partners-role">Director of Sales (Canada / USA)</p>
                                     </div>
@@ -65,7 +65,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Dhayanithi Lingesan</h6>
                                     <p className="partners-role">Director of Sales (Chennai)</p>
                                     </div>
@@ -73,7 +73,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Women} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Women} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Deepika</h6>
                                     <p className="partners-role">Director of Sales (Chennai)</p>
                                     </div>
@@ -81,7 +81,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Thomas</h6>
                                     <p className="partners-role">Director of Sales (Pondicherry)</p>
                                     </div>
@@ -89,7 +89,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Siva Kumar Ramasamy</h6>
                                     <p className="partners-role">Director of Sales (Madurai)</p>
                                     </div>
@@ -97,7 +97,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Nagaraj</h6>
                                     <p className="partners-role">Director of Sales (Coimbatore)</p>
                                     </div>
@@ -105,7 +105,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Seerin Gani</h6>
                                     <p className="partners-role">Director of Sales (Tirunelveli)</p>
                                     </div>
@@ -113,7 +113,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="260px" alt="" /></div>
+                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
                                     <h6 className="partner-fullname mt-3">Sabari</h6>
                                     <p className="partners-role">Director of Sales (Bangalore)</p>
                                     </div>

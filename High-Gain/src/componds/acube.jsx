@@ -6,7 +6,7 @@ import Cubethree from "../assets/Cubethree.jpeg";
 import Cubefour from "../assets/Cubefour.webp";
 import Cubefive from "../assets/Cubefive.webp";
 import { useEffect } from "react";
-
+import Abtn from "../assets/acubeabtn.webp"
 
 function acube()
 {
@@ -42,85 +42,223 @@ function acube()
 
 
 
-            <div className="container-fluid mt-5">
-                <div className="row">
-                    <div className="col-lg-12 text-center">
-                        <h2 style={{fontWeight:"500",fontfamily: "Cinzel, serif"}}>A-CUBE PROJECTS</h2>
-                    </div>
-                </div>
-            </div>
+                    <section class="sanctuary-section" data-aos="zoom-out">
+                           <div class="container">
+                             <div class="row align-items-center g-5">
+           
+                           
+                               <div class="col-lg-6">
+                                 <h2 class="sanctuary-title">YOUR A-CUBE SANCTUARY BY THE SEA</h2>
 
+                                    <p class="sanctuary-text">
+                                    Step into an elevated coastal lifestyle where contemporary design meets
+                                    intelligent living. A-CUBE presents exclusive sea-facing residences crafted for
+                                    those who seek both refined comfort and long-term value. Positioned along a
+                                    serene waterfront with seamless access to lifestyle amenities, these spacious
+                                    4, 5, and 6-bedroom villas offer panoramic views, open layouts, and premium
+                                    finishes that reflect modern elegance. Designed with precision and purpose,
+                                    A-CUBE delivers a harmonious balance of luxury, privacy, and high-growth
+                                    investment potential in a destination built for the future.
+                                    </p>
 
-           <div className="container my-5" data-aos="zoom-in">
-
-                    <div className="row g-4">
-
-                        {/* CARD 1 */}
-                        <div className="col-md-4 col-sm-6"  data-aos="flip-up">
-                        <div className="gallery-card position-relative overflow-hidden">
-                            <img src={Cubeone} className="img-fluid w-100 gallery-img" alt="" />
-                            
-                            <div className="p-3 text-center">
-                            <h5>VEGA RESIDENCE</h5>
-
-                            </div>
-                        </div>
-                        </div>
-
-                        {/* CARD 2 */}
-                        <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                        <div className="gallery-card position-relative overflow-hidden">
-                            <img src={Cubetwo} className="img-fluid w-100 gallery-img" alt="" />
-                            
-                            <div className="p-3 text-center">
-                            <h5>ELECTRA APARTMENTS</h5>
-
-                            </div>
-                        </div>
-                        </div>
-
-                        {/* CARD 3 */}
-                        <div className="col-md-4 col-sm-6" data-aos="flip-up">
-                        <div className="gallery-card position-relative overflow-hidden">
-                            <img src={Cubethree} className="img-fluid w-100 gallery-img" alt="" />
-                            
-                            <div className="p-3 text-center">
-                            <h5>ADHARA STAR</h5>
-                        
-                            </div>
-                        </div>
-                        </div>
-
-                        {/* CARD 4 */}
-                        <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                        <div className="gallery-card position-relative overflow-hidden">
-                            <img src={Cubefour} className="img-fluid w-100 gallery-img" alt="" />
-                            
-                            <div className="p-3 text-center">
-                            <h5>AVIOR BY ACUBE</h5>
-                    
-                            </div>
-                        </div>
-                        </div>
-
-                        {/* CARD 5 */}
-                        <div className="col-md-4 col-sm-6" data-aos="flip-down">
-                        <div className="gallery-card position-relative overflow-hidden">
-                            <img src={Cubefive} className="img-fluid w-100 gallery-img" alt="" />
-                            
-                            <div className="p-3 text-center">
-                            <h5>THE CROWN JEWEL</h5>
-                    
-                            </div>
-                        </div>
-                        </div>
-
-
-                    
-
-                    </div>
-            </div>
-
+           
+                               </div>
+           
+                           
+                               <div class="col-lg-6 position-relative">
+                                 <div class="image-wrapper">
+                                   <img src={Abtn} alt="Luxury Villa" class="img-fluid sanctuary-img"/>
+                                 </div>
+                               </div>
+           
+                             </div>
+                           </div>
+                       </section>
+           
+           
+           
+                       <div className="container-fluid mt-5">
+                           <div className="row">
+                              
+                           </div>
+                       </div>
+           
+           
+           
+                      <section class="animated-center-slider py-5" data-aos="zoom-in" style={{marginTop:"-60px"}}>
+                           <div class="container">
+           
+                              <div className="col-lg-12 text-center mt-3" style={{marginBottom:"30px"}}>
+                                   <h2 className="sanctuary-title" style={{fontWeight:"500",color:"white"}}>A-CUBE PROJECTS</h2>
+                               </div>
+           
+                             <div id="animatedSlider" class="carousel slide" data-bs-ride="carousel">
+                               <div class="carousel-inner">
+           
+                               
+                                 <div class="carousel-item active">
+                                   <div class="row justify-content-center align-items-center g-4">
+           
+                                 
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubefive} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-6 col-md-10">
+                                       <div class="slider-card center animate">
+                                         <img src={Cubeone} alt=""/>
+                                         <div class="slider-content">
+                                           <h4>VEGA RESIDENCE</h4>
+                                         </div>
+                                       </div>
+                                     </div>
+           
+                                 
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubetwo} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                   </div>
+                                 </div>
+           
+                             
+                                 <div class="carousel-item">
+                                   <div class="row justify-content-center align-items-center g-4">
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubeone} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-6 col-md-10">
+                                       <div class="slider-card center animate">
+                                         <img src={Cubetwo} alt=""/>
+                                         <div class="slider-content">
+                                           <h4>ELECTRA APARTMENTS</h4>
+                                         </div>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubethree} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                   </div>
+                                 </div>
+           
+           
+           
+                                 <div class="carousel-item">
+                                   <div class="row justify-content-center align-items-center g-4">
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubetwo} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-6 col-md-10">
+                                       <div class="slider-card center animate">
+                                         <img src={Cubethree} alt=""/>
+                                         <div class="slider-content">
+                                           <h4>ADHARA STAR</h4>
+                                         </div>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubefour} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                   </div>
+                                 </div>
+           
+           
+           
+                                 <div class="carousel-item">
+                                   <div class="row justify-content-center align-items-center g-4">
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubethree} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-6 col-md-10">
+                                       <div class="slider-card center animate">
+                                         <img src={Cubefour} alt=""/>
+                                         <div class="slider-content">
+                                           <h4>AVIOR BY ACUBE</h4>
+                                         </div>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubefive} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                   </div>
+                                 </div>
+           
+           
+                                 <div class="carousel-item">
+                                   <div class="row justify-content-center align-items-center g-4">
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubefour} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-6 col-md-10">
+                                       <div class="slider-card center animate">
+                                         <img src={Cubefive} alt=""/>
+                                         <div class="slider-content">
+                                           <h4>THE CROWN JEWEL</h4>
+                                     
+                                         </div>
+                                       </div>
+                                     </div>
+           
+                                     <div class="col-lg-3 d-none d-lg-block">
+                                       <div class="slider-card side">
+                                         <img src={Cubeone} alt=""/>
+                                       </div>
+                                     </div>
+           
+                                   </div>
+                                 </div>
+           
+           
+                                 
+           
+                               </div>
+           
+                           
+                               <button class="carousel-control-prev" type="button" data-bs-target="#animatedSlider" data-bs-slide="prev">
+                                 <span class="carousel-control-prev-icon"></span>
+                               </button>
+           
+                               <button class="carousel-control-next" type="button" data-bs-target="#animatedSlider" data-bs-slide="next">
+                                 <span class="carousel-control-next-icon"></span>
+                               </button>
+           
+                             </div>
+           
+                           </div>
+                     </section>
+           
 
 
 

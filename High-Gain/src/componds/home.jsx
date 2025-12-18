@@ -1,5 +1,5 @@
 
-import Navbar from "./navbar";
+
 import { useEffect, useRef,useState } from "react";
 import Apple from "../assets/mainlogo.jpg"
 import Homein from "../assets/abtn.jpg"
@@ -16,10 +16,22 @@ import Exthree from "../assets/exthree.jpg";
 import Exfour from "../assets/exfour.png";
 import { Link } from "react-router-dom";
 import Men from "../assets/man.png";
-import Women from "../assets/Women.png"
+import Women from "../assets/Women.png";
+import Logo from "../assets/mainlogo.png";
+import What from "../assets/what.webp";
+import Phone from "../assets/phone.png";
+import reone from "../assets/reviewone.jpg";
+import retwo from "../assets/reviewtwo.jpg";
+import rethree from "../assets/reviewthree.jpg";
+import refour from "../assets/reviewfour.jpg";
+import Fm from "../assets/samanaban.jpg";
 
 function home()
 {
+
+
+
+  
 
      const carouselRef = useRef(null);
 
@@ -78,52 +90,172 @@ function home()
 
 
 const sendEmail = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_0cc4tup",      // ✅ your Service ID
-        "template_28vl0cp",     // ✅ your Template ID
-        e.target,
-        "AMawV6ygbMJr7WlNY"     // ✅ your Public Key
-      )
-      .then(
-        () => {
-          alert("Thank you! We will contact you shortly.");
-          e.target.reset();
-        },
-        (error) => {
-          alert("❌ Failed to send message");
-          console.error(error);
-        }
-      );
-  };
+  const formData = new FormData(e.target);
+  console.log("Property Type:", formData.get("propertyType")); // 👈 CHECK
+
+  emailjs.sendForm(
+    "service_0cc4tup",
+    "template_28vl0cp",
+    e.target,
+    "AMawV6ygbMJr7WlNY"
+  )
+  .then(() => {
+    alert("Thank you! We will contact you shortly.");
+    e.target.reset();
+  })
+  .catch((error) => {
+    alert("❌ Failed to send message");
+    console.error(error);
+  });
+};
+
+
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  
+    const openSidebar = () => setSidebarOpen(true);
+    const closeSidebar = () => setSidebarOpen(false);
+  
+  
+    const [projectOpen, setProjectOpen] = useState(false);
+  
 
 
     return(
         <>
 
 
-            <Navbar/>
-           <section className="hero-banner d-flex align-items-center">
-                <div className="container">
-                    <div className="banner-content">
+        <nav className="navbar navbar-expand-lg navbar-dark custom-navbar py-3">
+          <div className="container d-flex align-items-center justify-content-between">
+        
+            {/* Logo */}
+            <Link className="navbar-brand" to="/">
+              <img src={Logo} alt="Logo" style={{background:"white",padding:"5px"}} />
+            </Link>
+        
+            {/* Desktop Menu */}
+            <ul className="navbar-nav desktop-menu align-items-center">
+              <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
+        
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                  Projects
+                </a>
+                <ul className="dropdown-menu">
+                    <li><Link className="dropdown-item" to="/azizi">AZIZI</Link></li>
+                    <li><Link className="dropdown-item" to="/acube">A-CUBE</Link></li>
+                    <li><Link className="dropdown-item" to="/binghatti">BINGHATTI</Link></li>
+                    <li><Link className="dropdown-item" to="/damac">DAMAC</Link></li>
+                    <li><Link className="dropdown-item" to="/object">OBJECT 1</Link></li>
+                    <li><Link className="dropdown-item" to="/emmar">EMAAR</Link></li>
+                    <li><Link className="dropdown-item" to="/ellignton">ELLIGNTON</Link></li>
+                    <li><Link className="dropdown-item" to="/samana">SAMANA</Link></li>
+                    <li><Link className="dropdown-item" to="/sobha">SOBHA</Link></li>
+                </ul>
+              </li>
 
-                    <h1 className="banner-title">
-                        DUBAI’S MOST RELIABLE REAL ESTATE PARTNER
-                    </h1>
+             <li className="nav-item"><Link className="nav-link" to={"/marketingpartner"}>Marketing Partners</Link></li>
+             <li className="nav-item"><Link className="nav-link" to={"/whycollaborating"}>Why Collaborating</Link></li>
+        
+              <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+        
+              <li className="nav-item ms-4">
+                <a href="https://wa.me/+971508364706" target="_blank">
+                  <img className="bounce" src={What} width="30" />
+                </a>
+              </li>
 
-                    <p className="banner-subtitle">
-                        Connecting you to premium spaces crafted for comfort, class, and lasting value.
-                    </p>
+              <li className="nav-item nav-icons ms-5" style={{ marginTop: "-5px" }}>
+                            <a href="tel:+971508364706"  target="_blank"><img className="bounce delay" src={Phone} alt="call" width="25" /></a>
+              </li>
 
-                    <button className="btn btn-light banner-btn" >
-                        <Link style={{color:"black",textDecoration:"none"}} to={"/marketingpartner"} > Become a Partner <i className="fas fa-arrow-right ms-2"></i></Link>
-                    </button>
 
-                    </div>
+              
+            </ul>
+        
+            {/* Mobile Icon */}
+            <div className="mobile-icons d-none">
+              <i className="fas fa-bars text-white fa-xl" onClick={openSidebar}></i>
+            </div>
+        
+          </div>
+        </nav>
+        
+        
+              {/* MOBILE SIDEBAR */}
+              <div className={`mobile-sidebar ${sidebarOpen ? "active" : ""}`}>
+                <span className="sidebar-close" onClick={closeSidebar}>&times;</span>
+        
+                <ul className="list-unstyled sidebar-list">
+                  <li><Link style={{textDecoration:"none"}} to={"/"} className="menu-item">Home</Link></li>
+                  <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
+                  {/* PROJECT DROPDOWN (MOBILE) */}
+        <li className="menu-item">
+          <span
+            className="d-flex justify-content-between align-items-center"
+            onClick={() => setProjectOpen(!projectOpen)}
+            style={{ cursor: "pointer" }}
+          >
+            Projects
+            <i className={`fas fa-chevron-${projectOpen ? "up" : "down"}`}></i>
+          </span>
+        
+          {/* Mobile dropdown list */}
+          {projectOpen && (
+            <ul className="list-unstyled ms-3 mt-2">
+              <li><Link className="menu-item" to="/azizi">AZIZI</Link></li>
+              <li><Link className="menu-item" to="/acube">A-CUBE</Link></li>
+              <li><Link className="menu-item" to="/binghatti">BINGHATTI</Link></li>
+              <li><Link className="menu-item" to="/damac">DAMAC</Link></li>
+              <li><Link className="menu-item" to="/object">OBJECT 1</Link></li>
+              <li><Link className="menu-item" to="/emmar">EMAAR</Link></li>
+              <li><Link className="menu-item" to="/ellignton">ELLIGNTON</Link></li>
+              <li><Link className="menu-item" to="/samana">SAMANA</Link></li>
+              <li><Link className="menu-item" to="/sobha">SOBHA</Link></li>
+            </ul>
+          )}
+        </li>
+        
+                  <li><Link style={{textDecoration:"none"}} to={"/whycollaborating"} className="menu-item">Why Collaborating</Link></li>
+                  <li><Link style={{textDecoration:"none"}} to={"/contact"} className="menu-item">Contact us</Link></li>
+                </ul>
+        
+        
+                <div className="mt-3 d-flex gap-3 bounce-icons">
+                  <a href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img className="bounce" src={What} width="28" alt="WhatsApp" /></a>
+                  <a href="tel:+971508364706" target="_blank"><img className="bounce delay" src={Phone} width="28" alt="Phone" /></a>
                 </div>
-             </section>
+
+                
+        
+        
+              </div>
+
+
+
+
+           <section className="hero-banner d-flex align-items-center">
+  <div className="container text-center">
+    <div className="banner-content mx-auto">
+
+      <h1 className="banner-title">
+        DUBAI’S MOST RELIABLE REAL ESTATE PARTNER
+      </h1>
+
+      <p className="banner-subtitle">
+        Connecting you to premium spaces crafted for comfort, class, and lasting value.
+      </p>
+
+      <button className="btn banner-btn">
+        Become a Partner <i className="fas fa-arrow-right ms-2 arrow-icon"></i>
+      </button>
+
+    </div>
+  </div>
+</section>
+
 
             <div className="container-fluid" style={{background:" rgb(58, 58, 58)"}} data-aos="fade-down">
             <section className="about-section">
@@ -143,7 +275,7 @@ const sendEmail = (e) => {
                             HIGHGAIN — WHERE TRUSTED PARTNERS & HAPPY CLIENTS CONNECT
                         </h2>
 
-                        <p className="about-text">
+                        <p className="about-texts">
                             HighGain Real Estate is one of Dubai’s most trusted and reliable property firms,
                             dedicated to helping individuals, families, and investors find the perfect space to call
                             home or grow their wealth. We specialize in guiding clients through every step of their
@@ -190,7 +322,7 @@ const sendEmail = (e) => {
                         <h3 className="section-title">Explore our projects</h3>
 
                    
-                         <Link  className="btn btn-outline-dark  px-4 py-2 see-all-btn" style={{textDecoration:"none"}} to={"/projects"} >See All Projects <i className="fas fa-arrow-right ms-2"></i></Link>
+                         
                        
                     </div>
 
@@ -275,6 +407,10 @@ const sendEmail = (e) => {
                         </div>
                     </div>
 
+                    <div style={{textAlign:"center",marginTop:"30px"}}>
+
+                    <Link  className="btn btn-outline-dark  px-4 py-2 see-all-btn" style={{textDecoration:"none"}} to={"/projects"} >See All Projects <i className="fas fa-arrow-right ms-2"></i></Link>
+                  </div>
             </section>
 
 
@@ -472,7 +608,7 @@ const sendEmail = (e) => {
 
                         <div className="col-md-6">
                         <div className="review-card">
-                            <img src={Person} className="review-img"/>
+                            <img src={reone} className="review-img"/>
                             <p className="review-text">“Amazing experience, highly responsive team...”</p>
                             <p className="review-name">— Hassan Ali</p>
                         </div>
@@ -480,7 +616,7 @@ const sendEmail = (e) => {
 
                         <div className="col-md-6">
                         <div className="review-card">
-                            <img src={Personone} className="review-img"/>
+                            <img src={retwo} className="review-img"/>
                             <p className="review-text">“Great professionalism and transparency...”</p>
                             <p className="review-name">— Maria Joseph</p>
                         </div>
@@ -492,16 +628,16 @@ const sendEmail = (e) => {
                    
                     <div className="carousel-item">
                     <div className="row gy-4">
-                        <div className="col-md-6"><div className="review-card"><img src={Person} className="review-img"/><p className="review-text">“Excellent service...”</p><p className="review-name">— Ahmed Khan</p></div></div>
-                        <div className="col-md-6"><div className="review-card"><img src={Personone} className="review-img"/><p className="review-text">“They really care...”</p><p className="review-name">— Fatima Noor</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Men} className="review-img"/><p className="review-text">“Excellent service...”</p><p className="review-name">— Ahmed Khan</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={Women} className="review-img"/><p className="review-text">“They really care...”</p><p className="review-name">— Fatima Noor</p></div></div>
                     </div>
                     </div>
 
                  
                     <div className="carousel-item">
                     <div className="row gy-4">
-                        <div className="col-md-6"><div className="review-card"><img src={Person} className="review-img"/><p className="review-text">“Great communication...”</p><p className="review-name">— Omar Al Saleh</p></div></div>
-                        <div className="col-md-6"><div className="review-card"><img src={Personone} className="review-img"/><p className="review-text">“Perfect buying experience...”</p><p className="review-name">— Zoya Malik</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={rethree} className="review-img"/><p className="review-text">“Great communication...”</p><p className="review-name">— Omar Al Saleh</p></div></div>
+                        <div className="col-md-6"><div className="review-card"><img src={refour} className="review-img"/><p className="review-text">“Perfect buying experience...”</p><p className="review-name">— Zoya Malik</p></div></div>
                     </div>
                     </div>
 
@@ -542,60 +678,81 @@ const sendEmail = (e) => {
                         <div className="col-lg-6 p-5 form-area">
 
                         <h3 className="contact-title text-center mb-4">GET IN TOUCH</h3>
+                      <form onSubmit={sendEmail}>
 
-                         <form onSubmit={sendEmail}>
+                        {/* Property Type */}
+                       
 
+                        {/* Full Name */}
                         <div className="mb-4">
-                            <input
+                          <input
                             type="text"
                             name="fullName"
                             className="form-control contact-input"
                             placeholder="Your Name*"
                             required
-                            />
+                          />
                         </div>
 
+                        {/* Phone */}
                         <div className="mb-4">
-                            <input
+                          <input
                             type="text"
                             name="phone"
                             className="form-control contact-input"
                             placeholder="Phone Number*"
                             required
-                            />
+                          />
                         </div>
 
+                        {/* Email */}
                         <div className="mb-4">
-                            <input
+                          <input
                             type="email"
                             name="email"
                             className="form-control contact-input"
                             placeholder="Email*"
                             required
-                            />
+                          />
                         </div>
 
+
+                         <div className="mb-4">
+                         <select
+                            name="propertyType"
+                            className="form-control contact-input"
+                            required
+                          >
+                            <option value="">Property Type</option>
+                            <option value="Apartments">Apartments</option>
+                            <option value="Villas">Villas</option>
+                          </select>
+                        </div>
+
+
+                        {/* Message */}
                         <div className="mb-4">
-                            <textarea
+                          <textarea
                             name="message"
                             rows="4"
                             className="form-control contact-input"
                             placeholder="Message"
                             required
-                            ></textarea>
+                          ></textarea>
                         </div>
 
                         <button type="submit" className="btn submit-btn w-100">
-                            SUBMIT
+                          SUBMIT
                         </button>
 
-                        </form>
+                      </form>
+
 
                         </div>
 
                     
                         <div className="col-lg-6">
-                        <img src={Form} className="img-fluid contact-img" alt=""/>
+                        <img src={Fm} className="img-fluid contact-img" alt=""/>
                         </div>
 
                     </div>

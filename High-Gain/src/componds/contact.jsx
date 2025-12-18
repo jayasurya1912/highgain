@@ -60,6 +60,68 @@ function contact()
 
 
 
+            <section class="contact-enquiry-section py-5">
+                <div class="container">
+                    <div class="row g-4">
+
+                   
+                    <div class="col-lg-4 col-md-6">
+                        <div class="enquiry-card">
+                        <h4 class="enquiry-title">Sales Enquiry</h4>
+
+                        <div class="enquiry-item">
+                            <i class="bi bi-telephone"></i>
+                            <span>+971 508 364 706</span>
+                        </div>
+
+                        <div class="enquiry-item">
+                            <i class="bi bi-envelope"></i>
+                            <span>amir@highgainrealestate.com</span>
+                        </div>
+                        </div>
+                    </div>
+
+                   
+                    <div class="col-lg-4 col-md-6">
+                        <div class="enquiry-card">
+                        <h4 class="enquiry-title">Customer Enquiry</h4>
+
+                        <div class="enquiry-item">
+                            <i class="bi bi-telephone"></i>
+                            <span>+971 508 364 706</span>
+                        </div>
+
+                        <div class="enquiry-item">
+                            <i class="bi bi-envelope"></i>
+                            <span>amir@highgainrealestate.com</span>
+                        </div>
+                        </div>
+                    </div>
+
+                 
+                    <div class="col-lg-4 col-md-6">
+                        <div class="enquiry-card">
+                        <h4 class="enquiry-title">Channel Partner Enquiry</h4>
+
+                        <div class="enquiry-item">
+                            <i class="bi bi-telephone"></i>
+                            <span>+971 508 364 706</span>
+                        </div>
+
+                        <div class="enquiry-item">
+                            <i class="bi bi-envelope"></i>
+                            <span>amir@highgainrealestate.com</span>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
 
              <section className="contact-section py-5"  data-aos="zoom-out-up">
                             <div className="container">
@@ -103,6 +165,18 @@ function contact()
                                             required
                                             />
                                         </div>
+
+                                         <div className="mb-4">
+                                            <select
+                                                name="propertyType"
+                                                className="form-control contact-input"
+                                                required >
+                                                <option value="">Property Type</option>
+                                                <option value="Apartments">Apartments</option>
+                                                <option value="Villas">Villas</option>
+                                            </select>
+                                         </div>
+
 
                                         <div className="mb-4">
                                             <textarea

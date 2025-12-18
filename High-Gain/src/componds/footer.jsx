@@ -37,7 +37,7 @@ function Footer() {
                 style={{ background: "white", padding: "20px" }}
               />
               <p className="footer-tagline">
-                HighGain Real Estate,<br />
+                
                 Live your dream.
               </p>
             </div>
