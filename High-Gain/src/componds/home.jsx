@@ -149,9 +149,9 @@ const sendEmail = (e) => {
                         and lasting value.
                       </p>
 
-                      <a href="#" class="btn hero-btn mt-4">
+                      <Link to="/marketingpartner"  class="btn hero-btn mt-4">
                         Become a Partner <span>→</span>
-                      </a>
+                      </Link>
 
                     </div>
                   </div>
