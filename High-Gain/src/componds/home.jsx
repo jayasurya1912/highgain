@@ -25,6 +25,7 @@ import retwo from "../assets/reviewtwo.jpg";
 import rethree from "../assets/reviewthree.jpg";
 import refour from "../assets/reviewfour.jpg";
 import Fm from "../assets/samanaban.jpg";
+import Navbar from "./navbar";
 
 function home()
 {
@@ -126,135 +127,37 @@ const sendEmail = (e) => {
         <>
 
 
-        <nav className="navbar navbar-expand-lg navbar-dark custom-navbar py-3">
-          <div className="container d-flex align-items-center justify-content-between">
-        
-            {/* Logo */}
-            <Link className="navbar-brand" to="/">
-              <img src={Logo} alt="Logo" style={{background:"white",padding:"5px"}} />
-            </Link>
-        
-            {/* Desktop Menu */}
-            <ul className="navbar-nav desktop-menu align-items-center">
-              <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-        
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Projects
-                </a>
-                <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" to="/azizi">AZIZI</Link></li>
-                    <li><Link className="dropdown-item" to="/acube">A-CUBE</Link></li>
-                    <li><Link className="dropdown-item" to="/binghatti">BINGHATTI</Link></li>
-                    <li><Link className="dropdown-item" to="/damac">DAMAC</Link></li>
-                    <li><Link className="dropdown-item" to="/object">OBJECT 1</Link></li>
-                    <li><Link className="dropdown-item" to="/emmar">EMAAR</Link></li>
-                    <li><Link className="dropdown-item" to="/ellignton">ELLIGNTON</Link></li>
-                    <li><Link className="dropdown-item" to="/samana">SAMANA</Link></li>
-                    <li><Link className="dropdown-item" to="/sobha">SOBHA</Link></li>
-                </ul>
-              </li>
-
-             <li className="nav-item"><Link className="nav-link" to={"/marketingpartner"}>Marketing Partners</Link></li>
-             <li className="nav-item"><Link className="nav-link" to={"/whycollaborating"}>Why Collaborating</Link></li>
-        
-              <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
-        
-              <li className="nav-item ms-4">
-                <a href="https://wa.me/+971508364706" target="_blank">
-                  <img className="bounce" src={What} width="30" />
-                </a>
-              </li>
-
-              <li className="nav-item nav-icons ms-5" style={{ marginTop: "-5px" }}>
-                            <a href="tel:+971508364706"  target="_blank"><img className="bounce delay" src={Phone} alt="call" width="25" /></a>
-              </li>
+              <Navbar/>
 
 
-              
-            </ul>
-        
-            {/* Mobile Icon */}
-            <div className="mobile-icons d-none">
-              <i className="fas fa-bars text-white fa-xl" onClick={openSidebar}></i>
-            </div>
-        
-          </div>
-        </nav>
-        
-        
-              {/* MOBILE SIDEBAR */}
-              <div className={`mobile-sidebar ${sidebarOpen ? "active" : ""}`}>
-                <span className="sidebar-close" onClick={closeSidebar}>&times;</span>
-        
-                <ul className="list-unstyled sidebar-list">
-                  <li><Link style={{textDecoration:"none"}} to={"/"} className="menu-item">Home</Link></li>
-                  <li><Link style={{textDecoration:"none"}} to={"/about"} className="menu-item">About</Link></li>
-                  {/* PROJECT DROPDOWN (MOBILE) */}
-        <li className="menu-item">
-          <span
-            className="d-flex justify-content-between align-items-center"
-            onClick={() => setProjectOpen(!projectOpen)}
-            style={{ cursor: "pointer" }}
-          >
-            Projects
-            <i className={`fas fa-chevron-${projectOpen ? "up" : "down"}`}></i>
-          </span>
-        
-          {/* Mobile dropdown list */}
-          {projectOpen && (
-            <ul className="list-unstyled ms-3 mt-2">
-              <li><Link className="menu-item" to="/azizi">AZIZI</Link></li>
-              <li><Link className="menu-item" to="/acube">A-CUBE</Link></li>
-              <li><Link className="menu-item" to="/binghatti">BINGHATTI</Link></li>
-              <li><Link className="menu-item" to="/damac">DAMAC</Link></li>
-              <li><Link className="menu-item" to="/object">OBJECT 1</Link></li>
-              <li><Link className="menu-item" to="/emmar">EMAAR</Link></li>
-              <li><Link className="menu-item" to="/ellignton">ELLIGNTON</Link></li>
-              <li><Link className="menu-item" to="/samana">SAMANA</Link></li>
-              <li><Link className="menu-item" to="/sobha">SOBHA</Link></li>
-            </ul>
-          )}
-        </li>
-        
-                  <li><Link style={{textDecoration:"none"}} to={"/whycollaborating"} className="menu-item">Why Collaborating</Link></li>
-                  <li><Link style={{textDecoration:"none"}} to={"/contact"} className="menu-item">Contact us</Link></li>
-                </ul>
-        
-        
-                <div className="mt-3 d-flex gap-3 bounce-icons">
-                  <a href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img className="bounce" src={What} width="28" alt="WhatsApp" /></a>
-                  <a href="tel:+971508364706" target="_blank"><img className="bounce delay" src={Phone} width="28" alt="Phone" /></a>
+
+
+                        <section class="hero-banner">
+                <div class="hero-overlay"></div>
+
+                <div class="container h-100">
+                  <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-9 col-md-11">
+
+                      <h1 class="hero-title">
+                        DUBAI’S MOST RELIABLE REAL<br class="d-none d-md-block"/>
+                        ESTATE PARTNER
+                      </h1>
+
+                      <p class="hero-subtitle mt-3">
+                        Connecting you to premium spaces crafted for comfort, class,
+                        and lasting value.
+                      </p>
+
+                      <a href="#" class="btn hero-btn mt-4">
+                        Become a Partner <span>→</span>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
+              </section>
 
-                
-        
-        
-              </div>
-
-
-
-
-           <section className="hero-banner d-flex align-items-center">
-  <div className="container text-center">
-    <div className="banner-content mx-auto">
-
-      <h1 className="banner-title">
-        DUBAI’S MOST RELIABLE REAL ESTATE PARTNER
-      </h1>
-
-      <p className="banner-subtitle">
-        Connecting you to premium spaces crafted for comfort, class, and lasting value.
-      </p>
-
-      <Link to={"/marketingpartner"} className="btn banner-btn">
-        Become a Partner <i className="fas fa-arrow-right ms-2 arrow-icon"></i>
-      </Link>
-
-    </div>
-  </div>
-</section>
 
 
             <div className="container-fluid" style={{background:" rgb(58, 58, 58)"}} data-aos="fade-down">

@@ -28,7 +28,7 @@ function App() {
           <Route path="/acube" element={<Acube />} />
           <Route path="/binghatti" element={<Binghatti />} />
           <Route path="/object" element={<Object />} />
-          <Route path="/damac" element={<Damac />} />
+           <Route path="/damac" element={<Damac />} />
           <Route path="/emmar" element={<Emmar />} />
           <Route path="/ellignton" element={<Ellignton />} />
           <Route path="/samana" element={<Samana />} />

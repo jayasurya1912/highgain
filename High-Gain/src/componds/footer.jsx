@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/mainlogo.jpg";
 import { useEffect, useRef } from "react";
+import Footimg from "../assets/footlogo.png"
 
 function Footer() {
   const scrollBtnRef = useRef(null);
@@ -31,10 +32,10 @@ function Footer() {
 
             <div className="col-lg-4 col-md-6 mb-4">
               <img
-                src={Logo}
+                src={Footimg}
                 className="footer-logo mb-3"
-                alt="logo"
-                style={{ background: "white", padding: "20px" }}
+                alt="logo" width="190px"
+                
               />
               <p className="footer-tagline">
                 
