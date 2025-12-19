@@ -20,9 +20,9 @@ function Navbar() {
         <div className="container d-flex align-items-center justify-content-between">
 
           {/* Logo */}
-          <a className="navbar-brand" href="#">
+          <Link to={"/"} className="navbar-brand" >
             <img src={Logo} alt="Logo" />
-          </a>
+          </Link>
 
           {/* Desktop Menu */}
           <ul className="navbar-nav desktop-menu d-flex align-items-center">

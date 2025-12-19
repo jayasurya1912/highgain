@@ -70,14 +70,19 @@ function contact()
                         <h4 class="enquiry-title">Sales Enquiry</h4>
 
                         <div class="enquiry-item">
+                        <span class="icon-circle">
                             <i class="bi bi-telephone"></i>
-                            <span>+971 508 364 706</span>
+                        </span>
+                        <span>+971 508 364 706</span>
                         </div>
 
                         <div class="enquiry-item">
+                        <span class="icon-circle">
                             <i class="bi bi-envelope"></i>
-                            <span>amir@highgainrealestate.com</span>
+                        </span>
+                        <span>amir@highgainrealestate.com</span>
                         </div>
+
                         </div>
                     </div>
 
@@ -87,14 +92,19 @@ function contact()
                         <h4 class="enquiry-title">Customer Enquiry</h4>
 
                         <div class="enquiry-item">
+                        <span class="icon-circle">
                             <i class="bi bi-telephone"></i>
-                            <span>+971 508 364 706</span>
+                        </span>
+                        <span>+971 508 364 706</span>
                         </div>
 
                         <div class="enquiry-item">
+                        <span class="icon-circle">
                             <i class="bi bi-envelope"></i>
-                            <span>amir@highgainrealestate.com</span>
+                        </span>
+                        <span>amir@highgainrealestate.com</span>
                         </div>
+
                         </div>
                     </div>
 
@@ -104,14 +114,19 @@ function contact()
                         <h4 class="enquiry-title">Channel Partner Enquiry</h4>
 
                         <div class="enquiry-item">
+                        <span class="icon-circle">
                             <i class="bi bi-telephone"></i>
-                            <span>+971 508 364 706</span>
+                        </span>
+                        <span>+971 508 364 706</span>
                         </div>
 
                         <div class="enquiry-item">
+                        <span class="icon-circle">
                             <i class="bi bi-envelope"></i>
-                            <span>amir@highgainrealestate.com</span>
+                        </span>
+                        <span>amir@highgainrealestate.com</span>
                         </div>
+
                         </div>
                     </div>
 
@@ -123,7 +138,7 @@ function contact()
 
 
 
-             <section className="contact-section py-5"  data-aos="zoom-out-up">
+             <section className="contact-section py-5"  data-aos="zoom-out-up" style={{marginTop:"-2rem"}}>
                             <div className="container">
                                 <div className="contact-wrapper">
             

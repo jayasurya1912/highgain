@@ -56,7 +56,7 @@ useEffect(() => {
                          
                                 <div className="col-lg-6 col-md-12 hg-about-text">
                                     
-                                    <h2 className="hg-about-title" style={{marginBottom:"50px"}}>
+                                    <h2 className="hg-about-title" style={{marginBottom:"20px"}}>
                                     HIGHGAIN — WHERE TRUSTED PARTNERS & HAPPY CLIENTS CONNECT
                                     </h2>
 

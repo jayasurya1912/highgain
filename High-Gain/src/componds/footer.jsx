@@ -58,19 +58,19 @@ function Footer() {
               <h5 className="footer-heading">CONTACT</h5>
               <p className="footer-contact">81262, Al Qusais, Dubai, UAE</p>
               <p className="footer-contact">
-                Mobile: <a href="#" className="footer-link">+971 508 364 706</a>
+                Mobile: <a href="tel:+971508364706" className="footer-link">+971 508 364 706</a>
               </p>
               <p className="footer-contact">
-                Email: <a href="#" className="footer-link">amir@highgainrealestate.com</a>
+                Email: <a href="mailto:amir@highgainrealestate.com" className="footer-link">amir@highgainrealestate.com</a>
               </p>
             </div>
 
             <div className="col-lg-2 col-md-6 mb-4">
               <h5 className="footer-heading">SOCIAL MEDIA</h5>
               <div className="footer-social">
-                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/highgainrealestate?igsh=Nm1temdqeGJ3enAx"><i className="fab fa-instagram"></i></a>
+                <a target="_blank" href="#"><i className="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="#"><i className="fab fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://www.instagram.com/highgainrealestate?igsh=Nm1temdqeGJ3enAx"><i className="fab fa-instagram"></i></a>
               </div>
             </div>
 
@@ -81,7 +81,7 @@ function Footer() {
           <div className="text-center footer-copy pt-2">
             Copyright © 2025 High Gain Real Estate.
             All Rights Reserved | Designed By{" "}
-            <a href="#" style={{ color: "white", textDecoration: "none" }}>
+            <a href="https://www.techmayon.com/" style={{ color: "white", textDecoration: "none" }}>
               Tech Mayon
             </a>
           </div>
@@ -89,7 +89,7 @@ function Footer() {
       </footer>
 
 
-       <div class="whatsapp-icon whatsapp-float"><a href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Build Tec Expo WhatsApp"/></a></div>
+       <div class="whatsapp-icon whatsapp-float"><a  href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Build Tec Expo WhatsApp"/></a></div>
 
       {/* Scroll to Top Button */}
       <button

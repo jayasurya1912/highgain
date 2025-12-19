@@ -743,6 +743,7 @@
   color: #fff;
   font-size: 16px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .footer-social a:hover {
@@ -1245,6 +1246,7 @@
   .hg-collab-text {
     font-size: 14px;
     padding: 0 15px;
+    text-align: justify;
   }
 }
 /* Background Image Layer */
@@ -1328,6 +1330,13 @@
   font-size: 18px;
   margin-bottom: 0;
   color: white;
+}
+@media(max-width:550px)
+{
+  .hg-contact-small
+  {
+    margin-top: -3.5rem;
+  }
 }
 
 .hg-contact-large {
@@ -2002,8 +2011,15 @@
   color: #555;
   line-height: 1.7;
   text-align: justify;
-  hyphens: auto;
+ 
   
+}
+@media(max-width:550px)
+{
+  .section-desc
+  {
+    text-align:justify;
+  }
 }
 
 .why-list {
@@ -2292,3 +2308,101 @@
   border-radius: 4px;
 }
 
+/* Section Background */
+.contact-enquiry-section {
+  background: #f8f9fa;
+}
+
+/* Card Design */
+.enquiry-card {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.enquiry-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Title */
+.enquiry-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 12px;
+}
+
+.enquiry-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 4px;
+  height: 20px;
+  background: black;
+  border-radius: 2px;
+}
+
+/* Contact Items */
+.enquiry-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #333;
+}
+
+.enquiry-item i {
+  font-size: 18px;
+  color: black;
+  background: rgba(15, 15, 15, 0.949);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+/* Email & Phone Hover */
+.enquiry-item span {
+  word-break: break-word;
+}
+
+.enquiry-item:hover span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .enquiry-card {
+    padding: 24px 20px;
+  }
+
+  .enquiry-title {
+    font-size: 18px;
+  }
+
+  .enquiry-item {
+    font-size: 14px;
+  }
+}
+.icon-circle {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;           /* prevents oval */
+  border-radius: 50%;
+  background: rgba(15, 15, 15, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  font-size: 18px;
+  color: white;
+  line-height: 1;            /* critical fix */
+}

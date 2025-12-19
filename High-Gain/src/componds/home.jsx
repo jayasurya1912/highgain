@@ -248,9 +248,9 @@ const sendEmail = (e) => {
         Connecting you to premium spaces crafted for comfort, class, and lasting value.
       </p>
 
-      <button className="btn banner-btn">
+      <Link to={"/marketingpartner"} className="btn banner-btn">
         Become a Partner <i className="fas fa-arrow-right ms-2 arrow-icon"></i>
-      </button>
+      </Link>
 
     </div>
   </div>
