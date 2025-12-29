@@ -63,16 +63,16 @@ function project()
                                  </section>
 
 
-                                            <section class="sanctuary-section" data-aos="zoom-out">
-                                                 <div class="container">
-                                                   <div class="row align-items-center g-5">
+                                            <section className="sanctuary-section" data-aos="zoom-out">
+                                                 <div className="container">
+                                                   <div className="row align-items-center g-5">
                                  
                                                  
-                                                     <div class="col-lg-6">
-                                                      <h2 class="sanctuary-title">Premium Real Estate Projects by High Gain</h2>
+                                                     <div className="col-lg-6">
+                                                      <h2 className="sanctuary-title">Premium Real Estate Projects by High Gain</h2>
 
    
-                                                       <p class="sanctuary-text">
+                                                       <p className="sanctuary-text">
                                                         Discover a curated portfolio of premium residential and investment opportunities
                                                         brought to you by High Gain Real Estate. Featuring iconic developments from
                                                         Azizi, A-Cube, Binghatti, Ellington, Emaar, Object One, Samana, Sobha, and DAMAC,
@@ -91,9 +91,9 @@ function project()
                                                      </div>
                                  
                                                  
-                                                     <div class="col-lg-6 position-relative">
-                                                       <div class="image-wrapper">
-                                                         <img src={Abtn} alt="Luxury Villa" class="img-fluid sanctuary-img"/>
+                                                     <div className="col-lg-6 position-relative">
+                                                       <div className="image-wrapper">
+                                                         <img src={Abtn} alt="Luxury Villa" className="img-fluid sanctuary-img"/>
                                                        </div>
                                                      </div>
                                  

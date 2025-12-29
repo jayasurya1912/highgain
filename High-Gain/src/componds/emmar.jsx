@@ -45,15 +45,15 @@ function emmar(){
         
         
         
-                                            <section class="sanctuary-section" data-aos="zoom-out">
-                                               <div class="container">
-                                                 <div class="row align-items-center g-5">
+                                            <section className="sanctuary-section" data-aos="zoom-out">
+                                               <div className="container">
+                                                 <div className="row align-items-center g-5">
                                
                                                
-                                                   <div class="col-lg-6">
-                                                     <h2 class="sanctuary-title">YOUR EMAAR SANCTUARY BY THE SEA</h2>
+                                                   <div className="col-lg-6">
+                                                     <h2 className="sanctuary-title">YOUR EMAAR SANCTUARY BY THE SEA</h2>
 
-                                                    <p class="sanctuary-text">
+                                                    <p className="sanctuary-text">
                                                     Discover an iconic waterfront lifestyle defined by timeless design and unmatched
                                                     quality. EMAAR’s sea-facing residences are meticulously crafted to offer expansive
                                                     views, natural light, and a refined living experience shaped by elegance and
@@ -69,9 +69,9 @@ function emmar(){
                                                    </div>
                                
                                                
-                                                   <div class="col-lg-6 position-relative">
-                                                     <div class="image-wrapper">
-                                                       <img src={Abtn} alt="Luxury Villa" class="img-fluid sanctuary-img"/>
+                                                   <div className="col-lg-6 position-relative">
+                                                     <div className="image-wrapper">
+                                                       <img src={Abtn} alt="Luxury Villa" className="img-fluid sanctuary-img"/>
                                                      </div>
                                                    </div>
                                
@@ -89,39 +89,39 @@ function emmar(){
                                
                                
                                
-                                          <section class="animated-center-slider py-5" data-aos="zoom-in" style={{marginTop:"-60px"}}>
-                                               <div class="container">
+                                          <section className="animated-center-slider py-5" data-aos="zoom-in" style={{marginTop:"-60px"}}>
+                                               <div className="container">
                                
                                                   <div className="col-lg-12 text-center mt-3" style={{marginBottom:"30px"}}>
                                                        <h2 className="sanctuary-title" style={{fontWeight:"500",color:"white"}}>EMMAR PROJECTS</h2>
                                                    </div>
                                
-                                                 <div id="animatedSlider" class="carousel slide" data-bs-ride="carousel">
-                                                   <div class="carousel-inner">
+                                                 <div id="animatedSlider" className="carousel slide" data-bs-ride="carousel">
+                                                   <div className="carousel-inner">
                                
                                                    
-                                                     <div class="carousel-item active">
-                                                       <div class="row justify-content-center align-items-center g-4">
+                                                     <div className="carousel-item active">
+                                                       <div className="row justify-content-center align-items-center g-4">
                                
                                                      
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emfive} alt=""/>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-6 col-md-10">
-                                                           <div class="slider-card center animate">
+                                                         <div className="col-lg-6 col-md-10">
+                                                           <div className="slider-card center animate">
                                                              <img src={Emone} alt=""/>
-                                                             <div class="slider-content">
+                                                             <div className="slider-content">
                                                                <h4>BURJ VISTA</h4>
                                                              </div>
                                                            </div>
                                                          </div>
                                
                                                      
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emtwo} alt=""/>
                                                            </div>
                                                          </div>
@@ -130,26 +130,26 @@ function emmar(){
                                                      </div>
                                
                                                  
-                                                     <div class="carousel-item">
-                                                       <div class="row justify-content-center align-items-center g-4">
+                                                     <div className="carousel-item">
+                                                       <div className="row justify-content-center align-items-center g-4">
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emone} alt=""/>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-6 col-md-10">
-                                                           <div class="slider-card center animate">
+                                                         <div className="col-lg-6 col-md-10">
+                                                           <div className="slider-card center animate">
                                                              <img src={Emtwo} alt=""/>
-                                                             <div class="slider-content">
+                                                             <div className="slider-content">
                                                                <h4>DUBAI MARINA</h4>
                                                              </div>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emthree} alt=""/>
                                                            </div>
                                                          </div>
@@ -159,26 +159,26 @@ function emmar(){
                                
                                
                                
-                                                     <div class="carousel-item">
-                                                       <div class="row justify-content-center align-items-center g-4">
+                                                     <div className="carousel-item">
+                                                       <div className="row justify-content-center align-items-center g-4">
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emtwo} alt=""/>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-6 col-md-10">
-                                                           <div class="slider-card center animate">
+                                                         <div className="col-lg-6 col-md-10">
+                                                           <div className="slider-card center animate">
                                                              <img src={Emthree} alt=""/>
-                                                             <div class="slider-content">
+                                                             <div className="slider-content">
                                                                <h4>EMIRATES LIVING</h4>
                                                              </div>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emfour} alt=""/>
                                                            </div>
                                                          </div>
@@ -188,26 +188,26 @@ function emmar(){
                                
                                
                                
-                                                     <div class="carousel-item">
-                                                       <div class="row justify-content-center align-items-center g-4">
+                                                     <div className="carousel-item">
+                                                       <div className="row justify-content-center align-items-center g-4">
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emthree} alt=""/>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-6 col-md-10">
-                                                           <div class="slider-card center animate">
+                                                         <div className="col-lg-6 col-md-10">
+                                                           <div className="slider-card center animate">
                                                              <img src={Emfour} alt=""/>
-                                                             <div class="slider-content">
+                                                             <div className="slider-content">
                                                                <h4>ARABIAN RANCHES</h4>
                                                              </div>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emfive} alt=""/>
                                                            </div>
                                                          </div>
@@ -216,27 +216,27 @@ function emmar(){
                                                      </div>
                                
                                
-                                                     <div class="carousel-item">
-                                                       <div class="row justify-content-center align-items-center g-4">
+                                                     <div className="carousel-item">
+                                                       <div className="row justify-content-center align-items-center g-4">
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emfour} alt=""/>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-6 col-md-10">
-                                                           <div class="slider-card center animate">
+                                                         <div className="col-lg-6 col-md-10">
+                                                           <div className="slider-card center animate">
                                                              <img src={Emfive} alt=""/>
-                                                             <div class="slider-content">
+                                                             <div className="slider-content">
                                                                <h4>EMAAR BEACHFRONT</h4>
                                                          
                                                              </div>
                                                            </div>
                                                          </div>
                                
-                                                         <div class="col-lg-3 d-none d-lg-block">
-                                                           <div class="slider-card side">
+                                                         <div className="col-lg-3 d-none d-lg-block">
+                                                           <div className="slider-card side">
                                                              <img src={Emone} alt=""/>
                                                            </div>
                                                          </div>
@@ -250,12 +250,12 @@ function emmar(){
                                                    </div>
                                
                                                
-                                                   <button class="carousel-control-prev" type="button" data-bs-target="#animatedSlider" data-bs-slide="prev">
-                                                     <span class="carousel-control-prev-icon"></span>
+                                                   <button className="carousel-control-prev" type="button" data-bs-target="#animatedSlider" data-bs-slide="prev">
+                                                     <span className="carousel-control-prev-icon"></span>
                                                    </button>
                                
-                                                   <button class="carousel-control-next" type="button" data-bs-target="#animatedSlider" data-bs-slide="next">
-                                                     <span class="carousel-control-next-icon"></span>
+                                                   <button className="carousel-control-next" type="button" data-bs-target="#animatedSlider" data-bs-slide="next">
+                                                     <span className="carousel-control-next-icon"></span>
                                                    </button>
                                
                                                  </div>

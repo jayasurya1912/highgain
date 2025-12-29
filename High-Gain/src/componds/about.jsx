@@ -106,17 +106,17 @@ useEffect(() => {
 
 
 
-                    <section class="about-values-section py-5">
-                        <div class="container">
-                            <div class="row justify-content-center g-4">
+                    <section className="about-values-section py-5">
+                        <div className="container">
+                            <div className="row justify-content-center g-4">
 
-                            <div class="col-lg-4 col-md-6">
-                                <div class="value-card">
-                                <img src={MS} class="img-fluid value-img" alt="Mission"/>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="value-card">
+                                <img src={MS} className="img-fluid value-img" alt="Mission"/>
 
-                                <div class="value-content">
-                                    <h5 class="value-title">Our Mission</h5>
-                                    <p class="value-text">
+                                <div className="value-content">
+                                    <h5 className="value-title">Our Mission</h5>
+                                    <p className="value-text">
                                     HIGHGAIN — WHERE TRUSTED PARTNERS & HAPPY CLIENTS CONNECT.
                                     Our mission is to turn property dreams into reality through trust,
                                     transparency, and expert guidance. We empower individuals,
@@ -128,13 +128,13 @@ useEffect(() => {
                             </div>
 
                     
-                            <div class="col-lg-4 col-md-6" style={{marginTop:"80px"}}>
-                                <div class="value-card featured">
-                                <img src={VS} class="img-fluid value-img" alt="Vision"/>
+                            <div className="col-lg-4 col-md-6" style={{marginTop:"80px"}}>
+                                <div className="value-card featured">
+                                <img src={VS} className="img-fluid value-img" alt="Vision"/>
 
-                                <div class="value-content">
-                                    <h5 class="value-title">Our Vision</h5>
-                                    <p class="value-text">
+                                <div className="value-content">
+                                    <h5 className="value-title">Our Vision</h5>
+                                    <p className="value-text">
                                     We envision becoming one of Dubai’s most trusted and reliable
                                     real estate partners by delivering value-driven solutions and
                                     exceptional service. With deep market knowledge, we strive to
@@ -145,13 +145,13 @@ useEffect(() => {
                             </div>
 
                            
-                            <div class="col-lg-4 col-md-6">
-                                <div class="value-card">
-                                <img src={CC} class="img-fluid value-img" alt="Core Values"/>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="value-card">
+                                <img src={CC} className="img-fluid value-img" alt="Core Values"/>
 
-                                <div class="value-content">
-                                    <h5 class="value-title">Core Values</h5>
-                                    <p class="value-text">
+                                <div className="value-content">
+                                    <h5 className="value-title">Core Values</h5>
+                                    <p className="value-text">
                                     Integrity, transparency, and client-first commitment define
                                     HighGain. Supported by our expert marketing partners, we ensure
                                     strong visibility, strategic outreach, and a seamless experience

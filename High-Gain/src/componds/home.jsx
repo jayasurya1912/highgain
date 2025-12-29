@@ -132,25 +132,28 @@ const sendEmail = (e) => {
 
 
 
-                        <section class="hero-banner">
-                <div class="hero-overlay"></div>
+                        <section className="hero-banner">
+                <div className="hero-overlay"></div>
 
-                <div class="container h-100">
-                  <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-9 col-md-11">
+                <div className="container h-100">
+                  <div className="row h-100 align-items-center justify-content-center text-center">
+                    <div className="col-lg-9 col-md-11">
 
-                      <h1 class="hero-title">
-                        DUBAI’S MOST RELIABLE REAL<br class="d-none d-md-block"/>
+                      <h1 className="hero-title">
+                        DUBAI’S MOST RELIABLE REAL<br className="d-none d-md-block"/>
                         ESTATE PARTNER
                       </h1>
 
-                      <p class="hero-subtitle mt-3">
+                      <p className="hero-subtitle mt-3">
                         Connecting you to premium spaces crafted for comfort, class,
                         and lasting value.
                       </p>
 
-                      <Link to="/marketingpartner"  class="btn hero-btn mt-4">
+                      <Link to="/marketingpartner"  className="btn hero-btn mt-4 mx-3">
                         Become a Partner <span>→</span>
+                      </Link>
+                      <Link to="/contact"  className="btn hero-btn mt-4">
+                        Enquiry Partner <span>→</span>
                       </Link>
 
                     </div>

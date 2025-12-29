@@ -60,25 +60,25 @@ function contact()
 
 
 
-            <section class="contact-enquiry-section py-5">
-                <div class="container">
-                    <div class="row g-4">
+            <section className="contact-enquiry-section py-5">
+                <div className="container">
+                    <div className="row g-4">
 
                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="enquiry-card">
-                        <h4 class="enquiry-title">Sales Enquiry</h4>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="enquiry-card">
+                        <h4 className="enquiry-title">Sales Enquiry</h4>
 
-                        <div class="enquiry-item">
-                        <span class="icon-circle">
-                            <i class="bi bi-telephone"></i>
+                        <div className="enquiry-item">
+                        <span className="icon-circle">
+                            <i className="bi bi-telephone"></i>
                         </span>
                         <span>+971 508 364 706</span>
                         </div>
 
-                        <div class="enquiry-item">
-                        <span class="icon-circle">
-                            <i class="bi bi-envelope"></i>
+                        <div className="enquiry-item">
+                        <span className="icon-circle">
+                            <i className="bi bi-envelope"></i>
                         </span>
                         <span>amir@highgainrealestate.com</span>
                         </div>
@@ -87,20 +87,20 @@ function contact()
                     </div>
 
                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="enquiry-card">
-                        <h4 class="enquiry-title">Customer Enquiry</h4>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="enquiry-card">
+                        <h4 className="enquiry-title">Customer Enquiry</h4>
 
-                        <div class="enquiry-item">
-                        <span class="icon-circle">
-                            <i class="bi bi-telephone"></i>
+                        <div className="enquiry-item">
+                        <span className="icon-circle">
+                            <i className="bi bi-telephone"></i>
                         </span>
                         <span>+971 508 364 706</span>
                         </div>
 
-                        <div class="enquiry-item">
-                        <span class="icon-circle">
-                            <i class="bi bi-envelope"></i>
+                        <div className="enquiry-item">
+                        <span className="icon-circle">
+                            <i className="bi bi-envelope"></i>
                         </span>
                         <span>amir@highgainrealestate.com</span>
                         </div>
@@ -109,20 +109,20 @@ function contact()
                     </div>
 
                  
-                    <div class="col-lg-4 col-md-6">
-                        <div class="enquiry-card">
-                        <h4 class="enquiry-title">Channel Partner Enquiry</h4>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="enquiry-card">
+                        <h4 className="enquiry-title">Channel Partner Enquiry</h4>
 
-                        <div class="enquiry-item">
-                        <span class="icon-circle">
-                            <i class="bi bi-telephone"></i>
+                        <div className="enquiry-item">
+                        <span className="icon-circle">
+                            <i className="bi bi-telephone"></i>
                         </span>
                         <span>+971 508 364 706</span>
                         </div>
 
-                        <div class="enquiry-item">
-                        <span class="icon-circle">
-                            <i class="bi bi-envelope"></i>
+                        <div className="enquiry-item">
+                        <span className="icon-circle">
+                            <i className="bi bi-envelope"></i>
                         </span>
                         <span>amir@highgainrealestate.com</span>
                         </div>

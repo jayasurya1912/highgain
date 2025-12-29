@@ -90,7 +90,7 @@ function Footer() {
       </footer>
 
 
-       <div class="whatsapp-icon whatsapp-float"><a  href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Build Tec Expo WhatsApp"/></a></div>
+       <div className="whatsapp-icon whatsapp-float"><a  href="https://wa.me/+971508364706?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20HighGain%20Could%20you%20please%20provide%20more%20details%20"target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Build Tec Expo WhatsApp"/></a></div>
 
       {/* Scroll to Top Button */}
       <button
