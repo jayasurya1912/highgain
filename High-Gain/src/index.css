@@ -124,7 +124,7 @@
 .hero-banner {
   position: relative;
   height: 100vh;
-  background-image: url("assets/homeban.jpg"); /* replace path */
+  background-image: url("assets/homeban.jpeg"); /* replace path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
