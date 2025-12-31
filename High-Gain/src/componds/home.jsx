@@ -26,6 +26,8 @@ import rethree from "../assets/reviewthree.jpg";
 import refour from "../assets/reviewfour.jpg";
 import Fm from "../assets/samanaban.jpg";
 import Navbar from "./navbar";
+import Thomas from "../assets/thomas.jpeg";
+import Raj from "../assets/raj.jpeg";
 
 function home()
 {
@@ -374,7 +376,7 @@ const sendEmail = (e) => {
         {/* CARD 2 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Dr. Rajarathinam" />
+            <img src={Raj} alt="Dr. Rajarathinam" />
           </div>
           <h6 className="partner-name">Dr. Rajarathinam</h6>
           <p className="partner-role">Director of Sales (Canada / USA)</p>
@@ -401,7 +403,7 @@ const sendEmail = (e) => {
         {/* CARD 5 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Thomas" />
+            <img src={Thomas} alt="Thomas" />
           </div>
           <h6 className="partner-name">Thomas</h6>
           <p className="partner-role">Director of Sales (Pondicherry)</p>
