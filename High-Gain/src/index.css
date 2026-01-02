@@ -959,7 +959,7 @@
   font-weight: 600;
   line-height: 1.7;
   margin: 0;
-  color: black;
+  color: white;
 }
 
 /* RESPONSIVE FIXES */
@@ -1238,13 +1238,31 @@
   position: relative;
   width: 100%;
   height: 90vh;
-  background-image: url("assets/marketba.jpeg");
+  background-image: url("assets/marketban.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   
 }
+
+
+
+/* BLACK OVERLAY */
+.hg-banners-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); /* adjust opacity */
+  z-index: 1;
+}
+
+/* CONTENT ABOVE OVERLAY */
+.hg-banners-section > * {
+  position: relative;
+  z-index: 2;
+}
+
 .hg-bannerss-section {
   position: relative;
   width: 100%;
@@ -1446,12 +1464,25 @@
   position: relative;
   width: 100%;
   height: 90vh;
-  background-image: url("assets/collabba.jpeg");
+  background-image: url("assets/collaba.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center; /* centers content horizontally */
+}
+.hg-bannerse-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); /* adjust opacity */
+  z-index: 1;
+}
+
+/* CONTENT ABOVE OVERLAY */
+.hg-bannerse-section > * {
+  position: relative;
+  z-index: 2;
 }
 
 .hg-bannerss-section {

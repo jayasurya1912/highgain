@@ -28,6 +28,7 @@ import Fm from "../assets/samanaban.jpg";
 import Navbar from "./navbar";
 import Thomas from "../assets/thomas.jpeg";
 import Raj from "../assets/raj.jpeg";
+import For from "../assets/forin.jpg";
 
 function home()
 {
@@ -660,7 +661,7 @@ const sendEmail = (e) => {
 
                     
                         <div className="col-lg-6">
-                        <img src={Fm} className="img-fluid contact-img" alt=""/>
+                        <img src={For} className="img-fluid contact-img" alt=""/>
                         </div>
 
                     </div>

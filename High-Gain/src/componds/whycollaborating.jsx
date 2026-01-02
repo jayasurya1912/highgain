@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Obnine from "../assets/obnine.png"
 import { Link } from "react-router-dom";
 import Ban from "../assets/elliban.jpg"
+import Part from "../assets/Part.jpg"
 
 
 function why(){
@@ -179,6 +180,9 @@ function why(){
                                 <p className="section-desc">
                                     By partnering with High Gain, you gain access to a professional team dedicated to enhancing brand visibility, generating quality leads, and delivering consistent results. Supported by experienced marketing partners and a commitment to ethical practices, we ensure every collaboration is structured for sustainable growth, stronger market presence, and lasting business relationships.
                                 </p>
+                                <p className="section-desc">
+                                    Beyond strategy and execution, High Gain believes in building partnerships that evolve with the market. We continuously analyze trends, buyer behavior, and investment movements to refine our approach and stay ahead of industry shifts. This proactive mindset enables our partners to adapt quickly, maximize returns, and maintain a competitive edge in Dubai’s dynamic real estate environment. With High Gain as a strategic ally, collaboration goes beyond campaigns—it becomes a growth-oriented journey backed by insight, accountability, and measurable impact.
+                                </p>
 
                                 <ul className="why-list">
                                     <li>Proven industry expertise with measurable results</li>
@@ -199,7 +203,7 @@ function why(){
                             <div className="col-lg-6 d-flex">
                                 <div className="why-image-box w-100">
                                 <img
-                                    src={Ban}
+                                    src={Part}
                                     alt="Why Collaborate with High Gain"
                                     className="img-fluid"
                                 />
