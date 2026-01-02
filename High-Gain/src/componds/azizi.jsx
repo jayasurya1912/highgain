@@ -9,6 +9,7 @@ import Azzsix from "../assets/azzsix.jpg";
 import Azzseven from "../assets/azzseven.jpg";
 import { useEffect } from "react";
 import Abtn from "../assets/aziziabtn.webp";
+import For from "../assets/forin.webp";
 
 
 function azizi()
@@ -19,6 +20,29 @@ function azizi()
         {
             document.title="Azizi"
         },[])
+
+
+        const sendEmail = (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(e.target);
+  console.log("Property Type:", formData.get("propertyType")); // 👈 CHECK
+
+  emailjs.sendForm(
+    "service_0cc4tup",
+    "template_28vl0cp",
+    e.target,
+    "AMawV6ygbMJr7WlNY"
+  )
+  .then(() => {
+    alert("Thank you! We will contact you shortly.");
+    e.target.reset();
+  })
+  .catch((error) => {
+    alert("❌ Failed to send message");
+    console.error(error);
+  });
+};
         
 
 
@@ -285,6 +309,120 @@ function azizi()
           </section>
 
 
+          <div className="container mt-5">
+            <h2 className="abouts-title text-center fw-bold">Our Projects</h2>
+            <div class="lr-images">
+            <div class="img-box" >
+              <img src={Azzfive} alt="Left Image"/>
+            </div>
+            <div class="img-boxs" style={{marginTop:"3rem"}}>
+              <img src={Azzone} alt="Right Image"/>
+            </div>
+            <div class="img-box" >
+              <img src={Azzfour} alt="Left Image"/>
+            </div>
+            <div class="img-boxs" style={{marginTop:"3rem"}}>
+              <img src={Azzthree} alt="Right Image"/>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+         <section className="contact-section py-5 mt-5"  data-aos="fade-down-left" style={{backgroundColor:"black"}}>
+                        <div className="container">
+                            <div className="contact-wrapper">
+        
+                            <div className="row g-0 align-items-center">
+        
+                            
+                                <div className="col-lg-6 p-5 form-area">
+        
+                                <h3 className="contact-title text-center mb-4">GET IN TOUCH</h3>
+                              <form onSubmit={sendEmail}>
+        
+                                {/* Property Type */}
+                               
+        
+                                {/* Full Name */}
+                                <div className="mb-4">
+                                  <input
+                                    type="text"
+                                    name="fullName"
+                                    className="form-control contact-input"
+                                    placeholder="Your Name*"
+                                    required
+                                  />
+                                </div>
+        
+                                {/* Phone */}
+                                <div className="mb-4">
+                                  <input
+                                    type="text"
+                                    name="phone"
+                                    className="form-control contact-input"
+                                    placeholder="Phone Number*"
+                                    required
+                                  />
+                                </div>
+        
+                                {/* Email */}
+                                <div className="mb-4">
+                                  <input
+                                    type="email"
+                                    name="email"
+                                    className="form-control contact-input"
+                                    placeholder="Email*"
+                                    required
+                                  />
+                                </div>
+        
+        
+                                 <div className="mb-4">
+                                 <select
+                                    name="propertyType"
+                                    className="form-control contact-input"
+                                    required
+                                  >
+                                    <option value="">Property Type</option>
+                                    <option value="Apartments">Apartments</option>
+                                    <option value="Villas">Villas</option>
+                                  </select>
+                                </div>
+        
+        
+                                {/* Message */}
+                                <div className="mb-4">
+                                  <textarea
+                                    name="message"
+                                    rows="4"
+                                    className="form-control contact-input"
+                                    placeholder="Message"
+                                    required
+                                  ></textarea>
+                                </div>
+        
+                                <button type="submit" className="btn submit-btn w-100">
+                                  SUBMIT
+                                </button>
+        
+                              </form>
+        
+        
+                                </div>
+        
+                            
+                                <div className="col-lg-6">
+                                <img src={For} className="img-fluid contact-img" alt=""/>
+                                </div>
+        
+                            </div>
+        
+                            </div>
+                        </div>
+                    </section>
 
 
           

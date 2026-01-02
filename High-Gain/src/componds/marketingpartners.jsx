@@ -1,8 +1,14 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { useEffect } from "react";
-import Men from "../assets/man.png";
-import Women from "../assets/women.png";
+import Men from "../assets/man.jpg";
+import Women from "../assets/women.jpg";
+import Dhaya from "../assets/dhaya.png";
+import Rathina from "../assets/rathina.png";
+import Sabari from "../assets/sabari.png";
+import Thomas from "../assets/thomas.png";
+import Raj from "../assets/raj.png";
+import { Link } from "react-router-dom";
 
 
 function market(){
@@ -49,7 +55,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center" >
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Jayakumar</h6>
                                     <p className="partners-role">Director of Sales (Western Countries)</p>
                                     </div>
@@ -57,7 +63,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Raj}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Dr. Rajarathinam</h6>
                                     <p className="partners-role">Director of Sales (Canada / USA)</p>
                                     </div>
@@ -65,31 +71,45 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Dhaya}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Dhayanithi Lingesan</h6>
                                     <p className="partners-role">Director of Sales (Chennai)</p>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+
+
+                                <div className="container mt-5 text-center">
+                                    <div className="col-lg-12">
+                                        <h2 className="abouts-title">Become a Partner</h2>
+                                        <p className="abouts-text">Partner with High Gain Real Estate and grow your presence in Dubai’s competitive property market. We collaborate with developers, investors, and industry professionals to deliver strategic marketing, qualified leads, and consistent results. Backed by market expertise, transparent processes, and a results-driven approach, we help our partners build stronger visibility, long-term value, and trusted client relationships.</p>
+                                        <Link className="know-btn" style={{color:"white",textDecoration:"none",backgroundColor:"black"}} to={"/whycollaborating"}>Know More</Link>
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Women} width="230px" alt="" /></div>
+                                    <div className=""><img src={Women} alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Deepika</h6>
                                     <p className="partners-role">Director of Sales (Chennai)</p>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Thomas}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Thomas</h6>
                                     <p className="partners-role">Director of Sales (Pondicherry)</p>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Siva Kumar Ramasamy</h6>
                                     <p className="partners-role">Director of Sales (Madurai)</p>
                                     </div>
@@ -97,15 +117,15 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
-                                    <h6 className="partner-fullname mt-3">Nagaraj</h6>
-                                    <p className="partners-role">Director of Sales (Coimbatore)</p>
+                                    <div className=""><img src={Rathina} alt="" width="100%" /></div>
+                                    <h6 className="partner-fullname mt-3">M RATHINA PAUL</h6>
+                                    <p className="partners-role">RERA Certified Property Consultant</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Seerin Gani</h6>
                                     <p className="partners-role">Director of Sales (Tirunelveli)</p>
                                     </div>
@@ -113,7 +133,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className="partner-img"><img src={Men} width="230px" alt="" /></div>
+                                    <div className=""><img src={Sabari}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Sabari</h6>
                                     <p className="partners-role">Director of Sales (Bangalore)</p>
                                     </div>

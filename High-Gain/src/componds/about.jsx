@@ -6,7 +6,11 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import VS from "../assets/vs.jpg";
 import CC from "../assets/cc.jpg";
-import MS from "../assets/ms.jpg"
+import MS from "../assets/ms.jpg";
+import Mis from "../assets/mis.jpg";
+import Vis from "../assets/vis.jpg";
+import Val from "../assets/Val.jpg";
+import Amir from "../assets/amir.jpg";
 
 
 
@@ -110,9 +114,9 @@ useEffect(() => {
                         <div className="container">
                             <div className="row justify-content-center g-4">
 
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-4 col-md-6" data-aos="zoom-in">
                                 <div className="value-card">
-                                <img src={MS} className="img-fluid value-img" alt="Mission"/>
+                                <img src={Mis} className="img-fluid value-img" alt="Mission"/>
 
                                 <div className="value-content">
                                     <h5 className="value-title">Our Mission</h5>
@@ -128,9 +132,9 @@ useEffect(() => {
                             </div>
 
                     
-                            <div className="col-lg-4 col-md-6" style={{marginTop:"80px"}}>
+                            <div className="col-lg-4 col-md-6" style={{marginTop:"80px"}} data-aos="zoom-in">
                                 <div className="value-card featured">
-                                <img src={VS} className="img-fluid value-img" alt="Vision"/>
+                                <img src={Val} className="img-fluid value-img" alt="Vision"/>
 
                                 <div className="value-content">
                                     <h5 className="value-title">Our Vision</h5>
@@ -145,9 +149,9 @@ useEffect(() => {
                             </div>
 
                            
-                            <div className="col-lg-4 col-md-6">
+                            <div className="col-lg-4 col-md-6" data-aos="zoom-in">
                                 <div className="value-card">
-                                <img src={CC} className="img-fluid value-img" alt="Core Values"/>
+                                <img src={Vis} className="img-fluid value-img" alt="Core Values"/>
 
                                 <div className="value-content">
                                     <h5 className="value-title">Core Values</h5>
@@ -188,7 +192,7 @@ useEffect(() => {
                                     <div className="mgmt-card">
                                     <div className="mgmt-photo mgmt-photo-left"></div>
 
-                                    <h5 className="mgmt-name mt-3">Name</h5>
+                                    <h5 className="mgmt-name mt-4">Name</h5>
                                     <p className="mgmt-role">Designation</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>
@@ -197,10 +201,10 @@ useEffect(() => {
                           
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="mgmt-card">
-                                    <div className="mgmt-photo mgmt-photo-bottom"></div>
+                                    <div className=""><img src={Amir} alt="" width="400px" height="290px" style={{borderTopLeftRadius:"90px"}} /></div>
 
-                                    <h5 className="mgmt-name mt-3">Name</h5>
-                                    <p className="mgmt-role">Designation</p>
+                                    <h5 className="mgmt-name mt-4">AMIR</h5>
+                                    <p className="mgmt-role">MANAGING DIRECTOR</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>
@@ -210,7 +214,7 @@ useEffect(() => {
                                     <div className="mgmt-card">
                                     <div className="mgmt-photo mgmt-photo-right"></div>
 
-                                    <h5 className="mgmt-name mt-3">Name</h5>
+                                    <h5 className="mgmt-name mt-4">Name</h5>
                                     <p className="mgmt-role">Designation</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>

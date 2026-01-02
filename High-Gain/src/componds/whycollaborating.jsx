@@ -4,7 +4,8 @@ import { useEffect } from "react";
 import Obnine from "../assets/obnine.png"
 import { Link } from "react-router-dom";
 import Ban from "../assets/elliban.jpg"
-import Part from "../assets/Part.jpg"
+import Part from "../assets/Part.jpg";
+import Col from "../assets/colin.jpg";
 
 
 function why(){
@@ -203,7 +204,7 @@ function why(){
                             <div className="col-lg-6 d-flex">
                                 <div className="why-image-box w-100">
                                 <img
-                                    src={Part}
+                                    src={Col}
                                     alt="Why Collaborate with High Gain"
                                     className="img-fluid"
                                 />

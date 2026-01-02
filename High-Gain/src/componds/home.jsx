@@ -1,5 +1,3 @@
-
-
 import { useEffect, useRef,useState } from "react";
 import Apple from "../assets/mainlogo.jpg"
 import Homein from "../assets/abtn.jpg"
@@ -28,7 +26,10 @@ import Fm from "../assets/samanaban.jpg";
 import Navbar from "./navbar";
 import Thomas from "../assets/thomas.jpeg";
 import Raj from "../assets/raj.jpeg";
-import For from "../assets/forin.jpg";
+import For from "../assets/forin.webp";
+import Dhaya from "../assets/dhaya.jpeg";
+import Rathina from "../assets/rathina.jpeg";
+import Sabari from "../assets/sabari.jpeg";
 
 function home()
 {
@@ -152,7 +153,7 @@ const sendEmail = (e) => {
                         and lasting value.
                       </p>
 
-                      <Link to="/marketingpartner"  className="btn hero-btn mt-4 mx-3">
+                      <Link to="/whycollaborating"  className="btn hero-btn mt-4 mx-3">
                         Become a Partner <span>→</span>
                       </Link>
                       <Link to="/contact"  className="btn hero-btn mt-4">
@@ -386,7 +387,7 @@ const sendEmail = (e) => {
         {/* CARD 3 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Dhayanithi Lingesan" />
+            <img src={Dhaya} alt="Dhayanithi Lingesan" />
           </div>
           <h6 className="partner-name">Dhayanithi Lingesan</h6>
           <p className="partner-role">Director of Sales (Chennai)</p>
@@ -440,7 +441,7 @@ const sendEmail = (e) => {
         {/* CARD 9 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Sabari" />
+            <img src={Sabari} alt="Sabari" />
           </div>
           <h6 className="partner-name">Sabari</h6>
           <p className="partner-role">Director of Sales (Bangalore)</p>
@@ -489,7 +490,7 @@ const sendEmail = (e) => {
                             <img src={Person} className="review-img"/>
 
                             <p className="review-text">
-                            “From the very first call, their team understood exactly what I was looking for...”
+                            “From the very first call, their team understood exactly what I was looking for.”
                             </p>
 
                             <p className="review-name">— Aisha Rahman</p>
