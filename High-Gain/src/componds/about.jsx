@@ -11,6 +11,7 @@ import Mis from "../assets/mis.jpg";
 import Vis from "../assets/vis.jpg";
 import Val from "../assets/Val.jpg";
 import Amir from "../assets/amir.jpg";
+import About from "../assets/aboutten.png";
 
 
 
@@ -100,7 +101,7 @@ useEffect(() => {
                                 <div className="col-lg-6 col-md-12 position-relative hg-about-img-wrapper">
 
                                   
-                                    <img src={Abtn} alt="Abtn" width="100%" />
+                                    <img src={About} alt="Abtn" width="100%" />
 
                                 </div>
 

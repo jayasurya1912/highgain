@@ -30,6 +30,7 @@ import For from "../assets/forin.webp";
 import Dhaya from "../assets/dhaya.jpeg";
 import Rathina from "../assets/rathina.jpeg";
 import Sabari from "../assets/sabari.jpeg";
+import Dep from "../assets/dep.jpeg";
 
 function home()
 {
@@ -378,7 +379,7 @@ const sendEmail = (e) => {
         {/* CARD 2 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Raj} alt="Dr. Rajarathinam" />
+            <img src={Thomas} alt="Dr. Rajarathinam" />
           </div>
           <h6 className="partner-name">Dr. Rajarathinam</h6>
           <p className="partner-role">Director of Sales (Canada / USA)</p>
@@ -396,7 +397,7 @@ const sendEmail = (e) => {
         {/* CARD 4 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Women} alt="Deepika" />
+            <img src={Dep} alt="Deepika" />
           </div>
           <h6 className="partner-name">Deepika</h6>
           <p className="partner-role">Director of Sales (Chennai)</p>
@@ -405,7 +406,7 @@ const sendEmail = (e) => {
         {/* CARD 5 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Thomas} alt="Thomas" />
+            <img src={Raj} alt="Thomas" />
           </div>
           <h6 className="partner-name">Thomas</h6>
           <p className="partner-role">Director of Sales (Pondicherry)</p>

@@ -1084,9 +1084,7 @@
 }
 
 /* RIGHT SIDE IMAGE SECTION */
-.hg-about-img-wrapper {
-  min-height: 550px;
-}
+
 
 /* BIG IMAGE */
 
@@ -1105,12 +1103,7 @@
   }
 }
 
-@media (max-width: 576px) {
-  .hg-about-small-img {
-    width: 80%;
-    left: 10%;
-  }
-}
+
 /* SECTION BACKGROUND */
 .hg-vm-section {
   background-image: url("assets/visio.jpeg");
