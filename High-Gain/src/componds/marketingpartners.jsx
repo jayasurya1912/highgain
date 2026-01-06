@@ -10,6 +10,9 @@ import Thomas from "../assets/thomas.png";
 import Raj from "../assets/raj.png";
 import { Link } from "react-router-dom";
 import Dep from "../assets/dep.png";
+import Sure from "../assets/suresh.png";
+import Uday from "../assets/udaya.png";
+import Siva from "../assets/siva.png";
 
 
 function market(){
@@ -56,8 +59,8 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center" >
-                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Jayakumar</h6>
+                                    <div className=""><img src={Sure}  alt="" width="100%" /></div>
+                                    <h6 className="partner-fullname mt-3">suresh kumar</h6>
                                     <p className="partners-role">Director of Sales (Western Countries)</p>
                                     </div>
                                 </div>
@@ -110,7 +113,7 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
+                                    <div className=""><img src={Siva}  alt="" width="100%" /></div>
                                     <h6 className="partner-fullname mt-3">Siva Kumar Ramasamy</h6>
                                     <p className="partners-role">Director of Sales (Madurai)</p>
                                     </div>
@@ -124,11 +127,11 @@ function market(){
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
+                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
-                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Seerin Gani</h6>
-                                    <p className="partners-role">Director of Sales (Tirunelveli)</p>
+                                    <div className=""><img src={Uday}  alt="" width="100%" /></div>
+                                    <h6 className="partner-fullname mt-3">UDAYA KUMAR</h6>
+                                    <p className="partners-role">Director of Sales (Coimbatore)</p>
                                     </div>
                                 </div>
 
@@ -140,21 +143,7 @@ function market(){
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
-                                    
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
-                                    <div className="partner-item text-center">
-                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Nagaraj</h6>
-                                    <p className="partners-role">Director of Sales (Coimbatore)</p>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
-                                   
-                                </div>
+                              
 
 
 

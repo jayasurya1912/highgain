@@ -12,6 +12,7 @@ import Vis from "../assets/vis.jpg";
 import Val from "../assets/Val.jpg";
 import Amir from "../assets/amir.jpg";
 import About from "../assets/aboutten.png";
+import Jay from "../assets/jayanthi.png";
 
 
 
@@ -191,10 +192,10 @@ useEffect(() => {
                                
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                                     <div className="mgmt-card">
-                                    <div className="mgmt-photo mgmt-photo-left"></div>
+                                    <div className=""><img src={Jay} alt="" width="400px" height="290px" style={{borderTopLeftRadius:"90px"}} /></div>
 
-                                    <h5 className="mgmt-name mt-4">Name</h5>
-                                    <p className="mgmt-role">Designation</p>
+                                    <h5 className="mgmt-name mt-4">JAYANTHI</h5>
+                                    <p className="mgmt-role">DIRECTOR</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>

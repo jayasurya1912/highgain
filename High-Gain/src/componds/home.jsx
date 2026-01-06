@@ -31,6 +31,9 @@ import Dhaya from "../assets/dhaya.jpeg";
 import Rathina from "../assets/rathina.jpeg";
 import Sabari from "../assets/sabari.jpeg";
 import Dep from "../assets/dep.jpeg";
+import Sure from "../assets/sure.jpeg";
+import Siva from "../assets/siva.jpeg";
+import Uday from "../assets/udaya.jpeg"
 
 function home()
 {
@@ -370,9 +373,9 @@ const sendEmail = (e) => {
         {/* CARD 1 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Jaya Kumar" />
+            <img src={Sure} alt="Jaya Kumar" />
           </div>
-          <h6 className="partner-name">Jaya Kumar</h6>
+          <h6 className="partner-name">Suresh Kumar</h6>
           <p className="partner-role">Director of Sales (Western Countries)</p>
         </div>
 
@@ -415,7 +418,7 @@ const sendEmail = (e) => {
         {/* CARD 6 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Siva Kumar" />
+            <img src={Siva} alt="Siva Kumar" />
           </div>
           <h6 className="partner-name">Siva Kumar Ramasamy</h6>
           <p className="partner-role">Director of Sales (Madurai)</p>
@@ -424,20 +427,20 @@ const sendEmail = (e) => {
         {/* CARD 7 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Men} alt="Nagaraj" />
+            <img src={Uday} alt="Nagaraj" />
           </div>
-          <h6 className="partner-name">Nagaraj</h6>
+          <h6 className="partner-name">Udaya Kumar</h6>
           <p className="partner-role">Director of Sales (Coimbatore)</p>
         </div>
 
         {/* CARD 8 */}
-        <div className="partner-card">
+        {/* <div className="partner-card">
           <div className="photo-box">
             <img src={Men} alt="Seerin Gani" />
           </div>
           <h6 className="partner-name">Seerin Gani</h6>
           <p className="partner-role">Director of Sales (Tirunelveli)</p>
-        </div>
+        </div> */}
 
         {/* CARD 9 */}
         <div className="partner-card">
