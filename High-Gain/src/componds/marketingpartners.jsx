@@ -59,8 +59,8 @@ function market(){
 
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center" >
-                                    <div className=""><img src={Sure}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">suresh kumar</h6>
+                                    <div className=""><img src={Men}  alt="" width="100%" /></div>
+                                    <h6 className="partner-fullname mt-3">MR. Jeya kumar</h6>
                                     <p className="partners-role">Director of Sales (Western Countries)</p>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ function market(){
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Dhaya}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Dhayanithi Lingesan</h6>
+                                    <h6 className="partner-fullname mt-3">MR. Dhayanithi Lingesan</h6>
                                     <p className="partners-role">Director of Sales (Chennai)</p>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ function market(){
                                 <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Dep} alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Deepika</h6>
+                                    <h6 className="partner-fullname mt-3">MS. Deepika</h6>
                                     <p className="partners-role">Director of Sales (Chennai)</p>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ function market(){
                                 <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Raj}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Thomas</h6>
+                                    <h6 className="partner-fullname mt-3">MR. Thomas</h6>
                                     <p className="partners-role">Director of Sales (Pondicherry)</p>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@ function market(){
                                 <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Siva}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Siva Kumar Ramasamy</h6>
+                                    <h6 className="partner-fullname mt-3">MR. Siva Kumar Ramasamy</h6>
                                     <p className="partners-role">Director of Sales (Madurai)</p>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@ function market(){
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Rathina} alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">M RATHINA PAUL</h6>
+                                    <h6 className="partner-fullname mt-3">MR. RATHINA PAUL</h6>
                                     <p className="partners-role">RERA Certified Property Consultant</p>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ function market(){
                                  <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Uday}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">UDAYA KUMAR</h6>
+                                    <h6 className="partner-fullname mt-3">MR. UDAYA KUMAR</h6>
                                     <p className="partners-role">Director of Sales (Coimbatore)</p>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@ function market(){
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-down">
                                     <div className="partner-item text-center">
                                     <div className=""><img src={Sabari}  alt="" width="100%" /></div>
-                                    <h6 className="partner-fullname mt-3">Sabari</h6>
+                                    <h6 className="partner-fullname mt-3">MR. Sabarinathan</h6>
                                     <p className="partners-role">Director of Sales (Bangalore)</p>
                                     </div>
                                 </div>

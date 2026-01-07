@@ -13,6 +13,7 @@ import Val from "../assets/Val.jpg";
 import Amir from "../assets/amir.jpg";
 import About from "../assets/aboutten.png";
 import Jay from "../assets/jayanthi.png";
+import Sure from "../assets/sureabt.png";
 
 
 
@@ -194,8 +195,8 @@ useEffect(() => {
                                     <div className="mgmt-card">
                                     <div className=""><img src={Jay} alt="" width="400px" height="290px" style={{borderTopLeftRadius:"90px"}} /></div>
 
-                                    <h5 className="mgmt-name mt-4">JAYANTHI</h5>
-                                    <p className="mgmt-role">DIRECTOR</p>
+                                    <h5 className="mgmt-name mt-4">MS. JAYANTHI</h5>
+                                    <p className="mgmt-role">Vice president</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>
@@ -205,7 +206,7 @@ useEffect(() => {
                                     <div className="mgmt-card">
                                     <div className=""><img src={Amir} alt="" width="400px" height="290px" style={{borderTopLeftRadius:"90px"}} /></div>
 
-                                    <h5 className="mgmt-name mt-4">AMIR</h5>
+                                    <h5 className="mgmt-name mt-4">MR. AMIR</h5>
                                     <p className="mgmt-role">MANAGING DIRECTOR</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>
@@ -214,10 +215,10 @@ useEffect(() => {
                              
                                 <div className="col-lg-4 col-md-6 col-12" data-aos="flip-up">
                                     <div className="mgmt-card">
-                                    <div className="mgmt-photo mgmt-photo-right"></div>
+                                    <div className=""><img src={Sure} alt="" width="400px" height="290px" style={{borderTopLeftRadius:"90px"}} /></div>
 
-                                    <h5 className="mgmt-name mt-4">Name</h5>
-                                    <p className="mgmt-role">Designation</p>
+                                    <h5 className="mgmt-name mt-4">MR. SURESH KUMAR</h5>
+                                    <p className="mgmt-role">General Manager</p>
                                     <p className="mgmt-bio">Biography</p>
                                     </div>
                                 </div>

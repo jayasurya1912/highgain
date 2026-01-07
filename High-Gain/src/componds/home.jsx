@@ -60,7 +60,7 @@ function home()
   const CARD_WIDTH = 280;
   const GAP = 32;
   const VISIBLE = 4;
-  const TOTAL = 10;
+  const TOTAL = 9;
 
   const maxIndex = TOTAL - VISIBLE;
 
@@ -373,9 +373,9 @@ const sendEmail = (e) => {
         {/* CARD 1 */}
         <div className="partner-card">
           <div className="photo-box">
-            <img src={Sure} alt="Jaya Kumar" />
+            <img src={Men} alt="Jaya Kumar" />
           </div>
-          <h6 className="partner-name">Suresh Kumar</h6>
+          <h6 className="partner-name">MR. Jeya Kumar</h6>
           <p className="partner-role">Director of Sales (Western Countries)</p>
         </div>
 
@@ -393,7 +393,7 @@ const sendEmail = (e) => {
           <div className="photo-box">
             <img src={Dhaya} alt="Dhayanithi Lingesan" />
           </div>
-          <h6 className="partner-name">Dhayanithi Lingesan</h6>
+          <h6 className="partner-name">MR. Dhayanithi Lingesan</h6>
           <p className="partner-role">Director of Sales (Chennai)</p>
         </div>
 
@@ -402,7 +402,7 @@ const sendEmail = (e) => {
           <div className="photo-box">
             <img src={Dep} alt="Deepika" />
           </div>
-          <h6 className="partner-name">Deepika</h6>
+          <h6 className="partner-name">MS. Deepika</h6>
           <p className="partner-role">Director of Sales (Chennai)</p>
         </div>
 
@@ -411,7 +411,7 @@ const sendEmail = (e) => {
           <div className="photo-box">
             <img src={Raj} alt="Thomas" />
           </div>
-          <h6 className="partner-name">Thomas</h6>
+          <h6 className="partner-name">MR. Thomas</h6>
           <p className="partner-role">Director of Sales (Pondicherry)</p>
         </div>
 
@@ -420,7 +420,7 @@ const sendEmail = (e) => {
           <div className="photo-box">
             <img src={Siva} alt="Siva Kumar" />
           </div>
-          <h6 className="partner-name">Siva Kumar Ramasamy</h6>
+          <h6 className="partner-name">MR.Siva Kumar Ramasamy</h6>
           <p className="partner-role">Director of Sales (Madurai)</p>
         </div>
 
@@ -429,7 +429,7 @@ const sendEmail = (e) => {
           <div className="photo-box">
             <img src={Uday} alt="Nagaraj" />
           </div>
-          <h6 className="partner-name">Udaya Kumar</h6>
+          <h6 className="partner-name">MR. Udaya Kumar</h6>
           <p className="partner-role">Director of Sales (Coimbatore)</p>
         </div>
 
@@ -447,7 +447,7 @@ const sendEmail = (e) => {
           <div className="photo-box">
             <img src={Sabari} alt="Sabari" />
           </div>
-          <h6 className="partner-name">Sabari</h6>
+          <h6 className="partner-name">MR.Sabarinathan</h6>
           <p className="partner-role">Director of Sales (Bangalore)</p>
         </div>
 
